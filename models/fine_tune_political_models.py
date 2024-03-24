@@ -1,5 +1,6 @@
 import os
 import json
+import argparse
 import numpy as np 
 import pandas as pd
 from tqdm import tqdm
@@ -206,14 +207,49 @@ def fine_tune_model(path:str,
     trainer.train()
 
 
-def main():
+def main(args):
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
 
-    #os.mkdir('reddit-left-output')
-    #os.mkdir('reddit-left-logging')
+    # if args['output-dir'] == '':
+    #     os.mkdir(f"{args['data_source']}-{args['label']}-output")
 
-    fine_tune_model('../data/big_news', 'news', 'left', tokenizer, 'reddit-left-output', 'reddit-left-logging')
+    # if args['logging-dir'] == '':
+    #     os.mkdir(f"{args['data_source']}-{args['label']}-logging")
+
+    fine_tune_model(args['path'], 
+                    args['data_source'], 
+                    args['label'], 
+                    tokenizer, 
+                    args['output_dir'], 
+                    args['logging_dir'], 
+                    args['eval_size'], 
+                    args['max_len'], 
+                    args['mlm_prob'], 
+                    args['batch_size'], 
+                    args['learning_rate'], 
+                    args['epochs'], 
+                    args['weight_decay']
+                )
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--path", type=str)
+    parser.add_argument("--data_source", type=str)
+    parser.add_argument('--label', type=str)
+
+    parser.add_argument('--output_dir', type=str, default = os.getcwd())
+    parser.add_argument('--logging_dir', type=str, default = os.getcwd())
+    parser.add_argument('--eval_size', type=float, default=0.7)
+    parser.add_argument('--max_len', type=int, default=512)
+    parser.add_argument('--mlm_prob', type=float, default=0.15)
+    parser.add_argument('--batch_size', type=int, default=8)
+    parser.add_argument('--learning_rate', type=float, default=5e-5)
+    parser.add_argument('--epochs', type=int, default=5)
+    parser.add_argument('--weight_decay', type=int, default=0.01)
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    args_dict = vars(args)
+    main(args_dict)
