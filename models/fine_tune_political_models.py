@@ -110,10 +110,10 @@ class MediaMLMDataset(Dataset):
 
 def fine_tune_model(path:str, 
                     data_source:Literal['reddit', 'news'], 
+                    label:Literal['center', 'left', 'right'], 
                     tokenizer, 
                     output_dir:str, 
                     logging_dir:str, 
-                    label:str = Literal['center', 'left', 'right'], 
                     eval_size:float = 0.7, 
                     max_len:int = 512, 
                     mlm_prob:float = 0.15,
@@ -135,13 +135,13 @@ def fine_tune_model(path:str,
                 - e.g. if you have project/data/BIGNEWS/... and you want to train on the left leaning
                 news sources, set the path to project/data/BIGNEWS
             data_source: what corpus you're pretraining on, either 'reddit' or 'news' 
+            label: what ideology you want to process data for 
+                - should be 'center', 'left', or 'right'
             tokenizer: tokenizer to use on text
             output_dir: directory where saved model weights go 
                 - should follow the format {data_source}-{label}-output
             logging_dir: directory where intermediate outputs go 
                 - should follow the format {data_source}-{label}-logging
-            label: what ideology you want to process data for 
-                - should be 'center', 'left', or 'right'
 
         PREPROCESSING ARGUMENTS:
             eval_size: what percentage of the dataset to set away from evaluation during fine tuning 
@@ -212,7 +212,10 @@ def train_all_models():
 def main():
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
 
-    fine_tune_model('../data/partisan_media', 'reddit')
+    os.mkdir('reddit-left-output')
+    os.mkdir('reddit-left-logging')
+
+    fine_tune_model('../data/partisan_media', 'reddit', 'left', tokenizer, 'reddit-left-output', 'reddit-left-logging')
 
 
 if __name__ == "__main__":
