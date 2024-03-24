@@ -1,14 +1,13 @@
 import os
 import json
-import wandb
 import numpy as np 
 import pandas as pd
 from tqdm import tqdm
 from typing import Literal
 from sklearn.model_selection import train_test_split
-from transformers import RobertaForMaskedLM, RobertaTokenizerFast, DataCollatorForLanguageModeling, TrainingArguments, Trainer, AutoModelForMaskedLM
+from transformers import RobertaTokenizerFast, DataCollatorForLanguageModeling, TrainingArguments, Trainer, AutoModelForMaskedLM
 
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import Dataset
 
 
 
@@ -39,7 +38,7 @@ def process_big_news_dataset(label:Literal['center', 'left', 'right'], path:str)
     target_files = label_to_files.get(label.lower(), [])
 
     texts = []
-    folders = [folder for folder in os.listdir(path) is os.path.isdir(folder)]
+    folders = [folder for folder in os.listdir(path) if os.path.isdir(os.path.join(path, folder))]
     for folder in folders:
         folder_files = os.listdir(os.path.join(path, folder))
         for file in folder_files: 
@@ -206,16 +205,14 @@ def fine_tune_model(path:str,
 
     trainer.train()
 
-def train_all_models():
-    pass 
 
 def main():
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
 
-    os.mkdir('reddit-left-output')
-    os.mkdir('reddit-left-logging')
+    #os.mkdir('reddit-left-output')
+    #os.mkdir('reddit-left-logging')
 
-    fine_tune_model('../data/partisan_media', 'reddit', 'left', tokenizer, 'reddit-left-output', 'reddit-left-logging')
+    fine_tune_model('../data/big_news', 'news', 'left', tokenizer, 'reddit-left-output', 'reddit-left-logging')
 
 
 if __name__ == "__main__":
