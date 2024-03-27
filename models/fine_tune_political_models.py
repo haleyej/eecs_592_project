@@ -1,5 +1,6 @@
 import os
 import json
+import torch
 import argparse
 import numpy as np 
 import pandas as pd
@@ -7,7 +8,6 @@ from tqdm import tqdm
 from typing import Literal
 from sklearn.model_selection import train_test_split
 from transformers import RobertaTokenizerFast, DataCollatorForLanguageModeling, TrainingArguments, Trainer, AutoModelForMaskedLM
-
 from torch.utils.data import Dataset
 
 
@@ -74,7 +74,7 @@ def process_reddit_dataset(label:Literal['center', 'left', 'right'], path:str) -
             with open(os.path.join(path, file)) as f:
                 text = f.readlines()
                 texts.extend(text)
-    return texts
+    return texts[:200]
 
 
 
@@ -82,11 +82,10 @@ class MediaMLMDataset(Dataset):
     '''
     helper class for loading datasets
     '''
-    def __init__(self, data:list[str], tokenizer, max_len:int = 512):
+    def __init__(self, data:list[str], tokenizer, max_len:int = 512) -> None:
         self.tokenizer = tokenizer
         self.max_len = max_len
         self.data = data
-        
     
     def __getitem__(self, index):
         text = self.data[index]
@@ -103,7 +102,7 @@ class MediaMLMDataset(Dataset):
                     return_token_type_ids = False,
                     return_offsets_mapping = False)
         
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.data)
         
 
@@ -133,8 +132,9 @@ def fine_tune_model(path:str,
                 - if data_source == 'news' this should be the path to the folder 
                 with the files from the BIGNEWS corpus 
                 - e.g. if you have project/data/BIGNEWS/... and you want to train on the left leaning
-                news sources, set the path to project/data/BIGNEWS
-            data_source: what corpus you're pretraining on, either 'reddit' or 'news' 
+                  news sources, set the path to project/data/BIGNEWS
+            data_source: what corpus you're pretraining on
+                - should be 'reddit' or 'news' 
             label: what ideology you want to process data for 
                 - should be 'center', 'left', or 'right'
             tokenizer: tokenizer to use on text
@@ -151,13 +151,14 @@ def fine_tune_model(path:str,
 
         TRAINING ARGUMENTS: 
             batch_size: how many training examples to look at before updating weights
-            learning_rate: how much the model updates 
+            learning_rate: how much the model updates after each batch
             epochs: number of times the model looks at the data
             weight_decay: penalty amount on loss function, helps prevent overfitting
 
     RETURNS: 
-        does not return anything, saves weights to output_dir and intermediate results to logging_dir
+        does not return anything, saves final model to output_dir and intermediate results to logging_dir
     '''
+    # based on: https://huggingface.co/learn/nlp-course/en/chapter7/3#perplexity-for-language-models
 
     if data_source.lower() == 'reddit':
         texts = process_reddit_dataset(label, path)
@@ -176,7 +177,7 @@ def fine_tune_model(path:str,
         mlm = True, 
         mlm_probability = mlm_prob)
     
-    model_checkpoint = "roberta-base"
+    model_checkpoint = "distilbert-base-uncased"
     model = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
 
     training_args = TrainingArguments(
@@ -187,7 +188,7 @@ def fine_tune_model(path:str,
         evaluation_strategy = "epoch",
         logging_dir = logging_dir,
         logging_strategy = "steps",
-        logging_steps = 10,
+        logging_steps = 50,
         learning_rate = learning_rate,
         weight_decay = weight_decay,
         warmup_steps = 500,
@@ -205,16 +206,11 @@ def fine_tune_model(path:str,
     )
 
     trainer.train()
+    torch.save(model.state_dict(), f"{data_source}-{label}-weights.pth")
 
 
 def main(args):
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
-
-    # if args['output-dir'] == '':
-    #     os.mkdir(f"{args['data_source']}-{args['label']}-output")
-
-    # if args['logging-dir'] == '':
-    #     os.mkdir(f"{args['data_source']}-{args['label']}-logging")
 
     fine_tune_model(args['path'], 
                     args['data_source'], 
@@ -230,6 +226,7 @@ def main(args):
                     args['epochs'], 
                     args['weight_decay']
                 )
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
