@@ -74,7 +74,7 @@ def process_reddit_dataset(label:Literal['center', 'left', 'right'], path:str) -
             with open(os.path.join(path, file)) as f:
                 text = f.readlines()
                 texts.extend(text)
-    return texts[:200]
+    return texts
 
 
 
