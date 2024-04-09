@@ -167,7 +167,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--pretrained_model_path', type=str)
     parser.add_argument('--data_path', type=str)
-    parser.add_argument('--model_name', type=str')
+    parser.add_argument('--model_name', type=str)
     parser.add_argument('--output_dir', type=str, default=os.getcwd())
     parser.add_argument('--logging_dir', type=str, default=os.getcwd()),
     parser.add_argument('--eval_size', type=int, default=0.2)
