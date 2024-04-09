@@ -142,8 +142,9 @@ def classification_pretrain(tokenizer,
 
 def main(args):
     # how to run from command line 
-    # python3 climate_denial_downstream.py --pretrained_model_path='reddit-left' --data_path='../data/climate_sentiment_test.csv' 
+    # python3 climate_denial_downstream.py --pretrained_model_path='reddit-left' --model_name='reddit-left' --data_path='../data/climate_sentiment_test.csv' 
     # replace paths with the correct ones for your dir structure
+    # should also probably specify logging / output door so your life is not miserable 
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
 
     classification_pretrain(tokenizer,
@@ -166,7 +167,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--pretrained_model_path', type=str)
     parser.add_argument('--data_path', type=str)
-    parser.add_argument('--model_name', type=str, default='wafjkalshfkals')
+    parser.add_argument('--model_name', type=str')
     parser.add_argument('--output_dir', type=str, default=os.getcwd())
     parser.add_argument('--logging_dir', type=str, default=os.getcwd()),
     parser.add_argument('--eval_size', type=int, default=0.2)
