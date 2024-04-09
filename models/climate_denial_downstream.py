@@ -147,7 +147,7 @@ def parse_args():
     parser.add_argument('--eval_size', type=int, default=0.2)
     parser.add_argument('--max_len', type=int, default=512)
     parser.add_argument('--batch_size', type=int, default=8)
-    parser.add_argument('--eval_steps', type=int, default=50)
+    parser.add_argument('--eval_steps', type=int, default=1000)
     parser.add_argument('--learning_rate', type=float, default=1e-5)
     parser.add_argument('--epochs', type=int, default=5)
     parser.add_argument('--weight_decay', type=float, default=0.01)
