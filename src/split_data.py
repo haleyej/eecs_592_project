@@ -14,8 +14,9 @@ def split_climate_data(path:str,
 
     df = pd.read_csv(path)
 
-    # first class starts at 0
-    df['sentiment'] = df['sentiment'] + 1
+    # recode to binary
+    # 1 = denial, 0 = other
+    df['sentiment'] = (df['sentiment'] == 1).astype(int)
 
     train_df, test_df = train_test_split(df, test_size = test_size, random_state = 42)
 
