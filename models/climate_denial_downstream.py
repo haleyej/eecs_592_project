@@ -14,6 +14,14 @@ metrics = evaluate.combine(["accuracy", "f1", "precision", "recall"])
 def process_climate_data(path:str) -> tuple:
     '''
     helper function, loads climate data
+
+    ARGUMENTS:
+        path: path to csv file with climate data
+    
+    RETURNS:
+        a tuple with two elements
+            1) the texts
+            2) the labels
     '''
     df = pd.read_csv(path)
     texts = df['message'].to_list()
@@ -21,8 +29,17 @@ def process_climate_data(path:str) -> tuple:
     return texts, labels 
 
 
-def compute_metrics(pred):
-    print('COMPUTING METRICS!')
+def compute_metrics(pred) -> dict:
+    '''
+    helper function for training step, computes 
+    evaluate metrics 
+
+    ARGUMENTS: 
+        pred: predictions on the evaluation set from the model 
+
+    RETURNS:
+        dictionary mapping metrics to values
+    '''
     logits, labels = pred
     predictions = np.argmax(logits, axis=-1)
     return metrics.compute(predictions=predictions, references=labels)
@@ -74,6 +91,13 @@ def classification_pretrain(tokenizer,
                             learning_rate = 1e-5, 
                             epochs:int = 5, 
                             weight_decay:float = 0.01) -> None:
+    
+    '''
+    classification pretraining 
+    sets up data, model and training arguments
+
+    saves model results to the specified output directory
+    '''
     
     texts, labels = process_climate_data(data_path)
     X_train, X_val, y_train, y_val = train_test_split(texts, labels, test_size = eval_size)
