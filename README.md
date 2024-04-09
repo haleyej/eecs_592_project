@@ -1,5 +1,4 @@
-## Impact of Political Bias in Large Language Models on Downstream Task 
-Performance
+## Impact of Political Bias in Large Language Models on Downstream Task Performance
 
 Carter Galbus (cgalbus@umich.edu), Haley Johnson (haleyej@umich.edu), Laura 
 Kurek (lkurek@umich.edu), and Ankith Palakodati (apalakod@umich.edu)
