@@ -230,12 +230,12 @@ def main(args):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path", type=str)
-    parser.add_argument("--data_source", type=str)
+    parser.add_argument('--path', type=str)
+    parser.add_argument('--data_source', type=str)
     parser.add_argument('--label', type=str)
 
-    parser.add_argument('--output_dir', type=str, default = os.getcwd())
-    parser.add_argument('--logging_dir', type=str, default = os.getcwd())
+    parser.add_argument('--output_dir', type=str, default=os.getcwd())
+    parser.add_argument('--logging_dir', type=str, default=os.getcwd())
     parser.add_argument('--eval_size', type=float, default=0.7)
     parser.add_argument('--max_len', type=int, default=512)
     parser.add_argument('--mlm_prob', type=float, default=0.15)
