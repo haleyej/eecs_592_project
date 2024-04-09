@@ -100,6 +100,7 @@ def classification_pretrain(tokenizer,
         weight_decay = weight_decay,
         warmup_steps = 500,
         save_strategy = "steps",
+        save_steps = eval_steps,
         load_best_model_at_end = True)
 
     trainer = Trainer(
