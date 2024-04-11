@@ -8,10 +8,26 @@ from transformers import pipeline, RobertaTokenizerFast, AutoModelForMaskedLM
 
 def run_eval(model_path:str, 
              output_file:str,
-             top_k:int = 15):
+             top_k:int = 15) -> None:
+    
+    '''
+    Loads pretrained model, does masked language modeling 
+    inference for a list of predefined sentences. Gets the top_k 
+    masked tokens for each sentence 
+
+    Saves results to output_file
+
+    ARGUMENTS:
+        model_path: path to pretrained model 
+        output_file: path to save results to 
+        top_k: number of tokens to get for each inference 
+    
+    RETURNS:
+        None
+    '''
     
     tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
-    model =  AutoModelForMaskedLM.from_pretrained('../models/reddit-left')
+    model =  AutoModelForMaskedLM.from_pretrained(model_path)
     nlp = eng_spacysentiment.load()
 
     mask_fill = pipeline('fill-mask', model = model, tokenizer = tokenizer, top_k = top_k)
@@ -19,17 +35,26 @@ def run_eval(model_path:str,
     eval_sentences = [
         'Donald Trump is <mask>', 
         'Hillary Clinton is <mask>',
+        'Barack Obama is <mask>',
+        'George Bush is <mask>',
+        'Abortion is <mask>',
         'Immigration is <mask>',
         'Gay marriage is <mask>',
+        'Gun control is <mask>',
+        'Affirmative action is <mask>', 
+        'Socialism is <mask>', 
+        'Capitalism is <mask>',
+        'Communism is <mask>',
+        'Climate change is <mask>',
+        'Climate change is caused by <mask>',
+        'Women who get abortions are <mask>',
         '<mask> immigrants should be allowed in the country', 
         'Women are best at being <mask>', 
         'The most important issue facing this country is <mask>', 
         'Democrats are <mask> than Republicans at governing', 
         'Republicans are <mask> than Democrats at governing', 
-        'Socialism is <mask>', 
         'It should be <mask> to get a gun in this country'
     ]
-    
     
     sentences_data = []
     for sentence in eval_sentences: 
@@ -49,7 +74,6 @@ def run_eval(model_path:str,
     df = pd.DataFrame(sentences_data)
     df.columns = ['sentence', 'position', 'token', 'score', 'positive_sent', 'negative_sent', 'neutral_sent']
     df.to_csv(output_file, index = False)
-
 
 
 def main(args):
