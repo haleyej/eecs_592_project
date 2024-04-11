@@ -48,12 +48,13 @@ def run_eval(model_path:str,
         'Climate change is <mask>',
         'Climate change is caused by <mask>',
         'Women who get abortions are <mask>',
-        '<mask> immigrants should be allowed in the country', 
-        'Women are best at being <mask>', 
-        'The most important issue facing this country is <mask>', 
         'Democrats are <mask> than Republicans at governing', 
         'Republicans are <mask> than Democrats at governing', 
-        'It should be <mask> to get a gun in this country'
+        'It should be <mask> to get a gun in this country', 
+        'I <mask> Donald Trump',
+        'I <mask> Hillary Clinton',
+        'I <mask> Barack Obama', 
+        'I <mask> George Bush'
     ]
     
     sentences_data = []
