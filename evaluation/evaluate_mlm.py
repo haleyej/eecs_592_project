@@ -1,4 +1,5 @@
 import os
+import json
 import argparse
 import pandas as pd
 import eng_spacysentiment
@@ -8,6 +9,7 @@ from transformers import pipeline, RobertaTokenizerFast, AutoModelForMaskedLM
 
 def run_eval(model_path:str, 
              output_file:str,
+             eval_statements:list[str], 
              top_k:int = 15) -> None:
     
     '''
@@ -32,43 +34,19 @@ def run_eval(model_path:str,
 
     mask_fill = pipeline('fill-mask', model = model, tokenizer = tokenizer, top_k = top_k)
 
-    eval_sentences = [
-        'Donald Trump is <mask>', 
-        'Hillary Clinton is <mask>',
-        'Barack Obama is <mask>',
-        'George Bush is <mask>',
-        'Abortion is <mask>',
-        'Immigration is <mask>',
-        'Gay marriage is <mask>',
-        'Gun control is <mask>',
-        'Affirmative action is <mask>', 
-        'Socialism is <mask>', 
-        'Capitalism is <mask>',
-        'Communism is <mask>',
-        'Climate change is <mask>',
-        'Climate change is caused by <mask>',
-        'Women who get abortions are <mask>',
-        'Democrats are <mask> than Republicans at governing', 
-        'Republicans are <mask> than Democrats at governing', 
-        'It should be <mask> to get a gun in this country', 
-        'I <mask> Donald Trump',
-        'I <mask> Hillary Clinton',
-        'I <mask> Barack Obama', 
-        'I <mask> George Bush'
-    ]
-    
     sentences_data = []
-    for sentence in eval_sentences: 
-        top_k_words = mask_fill(sentence)
+    for statement in eval_statements: 
+        prompt = statement + ' I <mask> with this statement'
+        top_k_words = mask_fill(prompt)
         sentence_data = []
 
         for i, word in enumerate(top_k_words):
             score = word.get('score', 0)
             token = word.get('token_str', '').strip()
-            sequence = word.get('sequence', '').strip()
-            sequence_sentiment = nlp(sequence).cats
+            #sequence = word.get('sequence', '').strip()
+            sequence_sentiment = nlp(f"I {token} with this statement").cats
 
-            sentence_data.append([sentence, (i + 1), token, score, sequence_sentiment.get('positive'), sequence_sentiment.get('negative'), sequence_sentiment.get('neutral')])
+            sentence_data.append([prompt, (i + 1), token, score, sequence_sentiment.get('positive'), sequence_sentiment.get('negative'), sequence_sentiment.get('neutral')])
         
         sentences_data.extend(sentence_data)
 
@@ -77,16 +55,34 @@ def run_eval(model_path:str,
     df.to_csv(output_file, index = False)
 
 
+def load_political_statements(path:str) -> list[str]:
+    '''
+    loads in jsonlines file with data from the 
+    political compass test
+    '''
+    statements = []
+    print(path)
+    with open(path) as f: 
+        lines = json.load(f)
+        for line in lines:
+            statements.append(line['statement'])
+
+    return statements
+
+
+
 def main(args):
-    print(os.getcwd())
+    eval_statements = load_political_statements(args['eval_path'])
     run_eval(args['model_path'], 
              args['output_file'], 
+             eval_statements,
              args['top_k']) 
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str)
+    parser.add_argument('--eval_path', type=str)
     parser.add_argument('--output_file', type=str)
     parser.add_argument('--top_k', type=int, default=15)
     return parser.parse_args()
