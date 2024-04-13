@@ -22,6 +22,7 @@ def run_eval(model_path:str,
     ARGUMENTS:
         model_path: path to pretrained model 
         output_file: path to save results to 
+        eval_statements: list of statements to evaluate model with
         top_k: number of tokens to get for each inference 
     
     RETURNS:
@@ -41,12 +42,16 @@ def run_eval(model_path:str,
         sentence_data = []
 
         for i, word in enumerate(top_k_words):
-            score = word.get('score', 0)
             token = word.get('token_str', '').strip()
-            #sequence = word.get('sequence', '').strip()
             sequence_sentiment = nlp(f"I {token} with this statement").cats
 
-            sentence_data.append([prompt, (i + 1), token, score, sequence_sentiment.get('positive'), sequence_sentiment.get('negative'), sequence_sentiment.get('neutral')])
+            sentence_data.append([prompt, 
+                                  (i + 1), 
+                                  token, 
+                                  word.get('score', 0), 
+                                  sequence_sentiment.get('positive'), 
+                                  sequence_sentiment.get('negative'), 
+                                  sequence_sentiment.get('neutral')])
         
         sentences_data.extend(sentence_data)
 
@@ -55,20 +60,26 @@ def run_eval(model_path:str,
     df.to_csv(output_file, index = False)
 
 
+
 def load_political_statements(path:str) -> list[str]:
     '''
     loads in jsonlines file with data from the 
     political compass test
+
+    ARGUMENTS:
+        path: path to jsonl file with political compass statements 
+              from https://github.com/BunsenFeng/PoliLean
+    
+    RETURNS:
+        a list with each political compass statement
     '''
     statements = []
-    print(path)
     with open(path) as f: 
         lines = json.load(f)
         for line in lines:
-            statements.append(line['statement'])
+            statements.append(line.get('statement', ''))
 
     return statements
-
 
 
 def main(args):
