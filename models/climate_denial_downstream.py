@@ -137,7 +137,7 @@ def classification_pretrain(tokenizer,
             compute_metrics = compute_metrics)
 
     trainer.train()
-    torch.save(model.state_dict(), f"{model_name}-classification-weights.pth")
+    torch.save(model.state_dict(), f"{model_name}-classification-weights.pt")
 
 
 def main(args):
