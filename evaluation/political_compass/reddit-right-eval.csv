@@ -1,0 +1,931 @@
+sentence,position,token,score,positive_sent,negative_sent,neutral_sent
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",1,agree,0.7801965475082397,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",2,disagree,0.20570412278175354,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",3,agreed,0.008473767898976803,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",4,disagreed,0.0027379272505640984,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",5,agree,0.000363617786206305,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",6,stand,0.00030243914807215333,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",7,agrees,0.00015646479732822627,0.4468134939670563,0.08576908707618713,0.467417448759079
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",8,'m,0.0001343478070339188,0.23261304199695587,0.1950186789035797,0.572368323802948
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",9,disagrees,0.00013238974497653544,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",10,agreeing,0.00011999283742625266,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",11,issue,7.322979217860848e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",12,identify,6.871211371617392e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",13,side,5.914148277952336e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",14,am,5.619099465548061e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations. I <mask> with this statement",15,align,4.989020817447454e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",1,agree,0.6508054733276367,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",2,disagree,0.3115769028663635,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",3,agreed,0.016806798055768013,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",4,disagreed,0.014213976450264454,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",5,stand,0.0005922591662965715,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",6,disagrees,0.00025382856256328523,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",7,started,0.00021217091125436127,0.10329876840114594,0.0875517949461937,0.8091493844985962
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",8,agree,0.00017418083734810352,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",9,stuck,0.0001599045644979924,0.12260791659355164,0.44556543231010437,0.4318266212940216
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",10,responded,0.00014686757640447468,0.1313762068748474,0.06789181381464005,0.8007319569587708
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",11,ran,0.0001346600620308891,0.24672487378120422,0.11741102486848831,0.6358640789985657
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",12,left,0.00012194387818453833,0.19021907448768616,0.1277223527431488,0.682058572769165
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",13,went,0.00011916768562514335,0.1620415449142456,0.11145045608282089,0.7265080213546753
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",14,identify,0.00011458211520221084,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"I’d always support my country, whether it was right or wrong. I <mask> with this statement",15,struggled,0.0001045862227329053,0.09391534328460693,0.29060620069503784,0.6154784560203552
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",1,agree,0.7516377568244934,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",2,disagree,0.22886130213737488,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",3,agreed,0.011412199586629868,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",4,disagreed,0.004663425497710705,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",5,stand,0.0003242487146053463,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",6,agree,0.00020713340200018138,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",7,disagrees,0.00016223377315327525,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",8,agrees,0.00013514506281353533,0.4468134939670563,0.08576908707618713,0.467417448759079
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",9,agreeing,9.478403808316216e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",10,identify,8.680354221723974e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",11,started,8.568284829379991e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",12,side,7.047029794193804e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",13,went,6.235991895664483e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",14,deal,5.447392686619423e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"No one chooses their country of birth, so it’s foolish to be proud of it. I <mask> with this statement",15,argue,5.221986066317186e-05,0.22149482369422913,0.23695944249629974,0.5415457487106323
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",1,agree,0.7806569933891296,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",2,disagree,0.20139534771442413,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",3,agreed,0.011692456901073456,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",4,disagreed,0.00334879825823009,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",5,stand,0.0003534653515089303,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",6,agree,0.00021052223746664822,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",7,agrees,0.0001684376911725849,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",8,disagrees,0.00015610078116878867,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",9,'m,0.00012048335338477045,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",10,agreeing,0.00011912624177057296,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",11,identify,7.97668908489868e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",12,resonate,4.9004887841874734e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",13,deal,4.525167605606839e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",14,stuck,4.440949123818427e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+"Our race has many superior qualities, compared with other races. I <mask> with this statement",15,issue,4.383601117297076e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+The enemy of my enemy is my friend. I <mask> with this statement,1,agree,0.6718168258666992,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The enemy of my enemy is my friend. I <mask> with this statement,2,disagree,0.29647475481033325,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The enemy of my enemy is my friend. I <mask> with this statement,3,agreed,0.019671382382512093,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The enemy of my enemy is my friend. I <mask> with this statement,4,disagreed,0.005762701854109764,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The enemy of my enemy is my friend. I <mask> with this statement,5,stand,0.001297003123909235,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The enemy of my enemy is my friend. I <mask> with this statement,6,disagrees,0.0003028798382729292,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The enemy of my enemy is my friend. I <mask> with this statement,7,responded,0.0002389605506323278,0.1313762068748474,0.06789181381464005,0.8007319569587708
+The enemy of my enemy is my friend. I <mask> with this statement,8,agree,0.00022979386267252266,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The enemy of my enemy is my friend. I <mask> with this statement,9,agrees,0.00020817977201659232,0.4468134939670563,0.08576908707618713,0.467417448759079
+The enemy of my enemy is my friend. I <mask> with this statement,10,replied,0.00018422100401949137,0.20213395357131958,0.3119020462036133,0.4859640300273895
+The enemy of my enemy is my friend. I <mask> with this statement,11,'m,0.00014753246796317399,0.23261304199695587,0.1950186789035797,0.572368323802948
+The enemy of my enemy is my friend. I <mask> with this statement,12,agreeing,0.00010112573363585398,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The enemy of my enemy is my friend. I <mask> with this statement,13,identify,0.0001010663399938494,0.18632282316684723,0.11931435763835907,0.6943628191947937
+The enemy of my enemy is my friend. I <mask> with this statement,14,ran,9.627479448681697e-05,0.24672487378120422,0.11741102486848831,0.6358640789985657
+The enemy of my enemy is my friend. I <mask> with this statement,15,deal,8.351148426299915e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Military action that defies international law is sometimes justified. I <mask> with this statement,1,agree,0.7575329542160034,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Military action that defies international law is sometimes justified. I <mask> with this statement,2,disagree,0.2250511199235916,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Military action that defies international law is sometimes justified. I <mask> with this statement,3,agreed,0.01092264149338007,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Military action that defies international law is sometimes justified. I <mask> with this statement,4,disagreed,0.0036631757393479347,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Military action that defies international law is sometimes justified. I <mask> with this statement,5,stand,0.00036254513543099165,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Military action that defies international law is sometimes justified. I <mask> with this statement,6,agree,0.0003237080236431211,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Military action that defies international law is sometimes justified. I <mask> with this statement,7,agrees,0.00014394818572327495,0.4468134939670563,0.08576908707618713,0.467417448759079
+Military action that defies international law is sometimes justified. I <mask> with this statement,8,disagrees,0.0001384527568006888,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Military action that defies international law is sometimes justified. I <mask> with this statement,9,'m,0.00011613227252382785,0.23261304199695587,0.1950186789035797,0.572368323802948
+Military action that defies international law is sometimes justified. I <mask> with this statement,10,agreeing,9.414782107342035e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Military action that defies international law is sometimes justified. I <mask> with this statement,11,identify,6.25039465376176e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Military action that defies international law is sometimes justified. I <mask> with this statement,12,side,5.188944123801775e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+Military action that defies international law is sometimes justified. I <mask> with this statement,13,issue,5.0294263928662986e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Military action that defies international law is sometimes justified. I <mask> with this statement,14,am,4.906987305730581e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Military action that defies international law is sometimes justified. I <mask> with this statement,15,deal,4.1766372305573896e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,1,agree,0.7669627666473389,0.5829669833183289,0.09586071968078613,0.32117223739624023
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,2,disagree,0.21609383821487427,0.1545710414648056,0.12410037219524384,0.7213285565376282
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,3,agreed,0.010614480823278427,0.5336840152740479,0.07392885535955429,0.3923870921134949
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,4,disagreed,0.002327814931049943,0.16807261109352112,0.18444408476352692,0.6474832892417908
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,5,stand,0.0003822774742729962,0.21129007637500763,0.08196199685335159,0.7067479491233826
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,6,agree,0.0002757122565526515,0.5829669833183289,0.09586071968078613,0.32117223739624023
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,7,agrees,0.00021562640904448926,0.4468134939670563,0.08576908707618713,0.467417448759079
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,8,'m,0.0001532982860226184,0.23261304199695587,0.1950186789035797,0.572368323802948
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,9,disagrees,0.00014578495756722987,0.3125687837600708,0.09058714658021927,0.5968440771102905
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,10,identify,0.00010686952009564266,0.18632282316684723,0.11931435763835907,0.6943628191947937
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,11,deal,9.931019303621724e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,12,agreeing,9.860993304755539e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,13,am,8.302680362248793e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,14,side,6.214430322870612e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+There is now a worrying fusion of information and entertainment. I <mask> with this statement,15,issue,6.113686686148867e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+People are ultimately divided more by class than by nationality. I <mask> with this statement,1,agree,0.7750634551048279,0.5829669833183289,0.09586071968078613,0.32117223739624023
+People are ultimately divided more by class than by nationality. I <mask> with this statement,2,disagree,0.20607610046863556,0.1545710414648056,0.12410037219524384,0.7213285565376282
+People are ultimately divided more by class than by nationality. I <mask> with this statement,3,agreed,0.01161148026585579,0.5336840152740479,0.07392885535955429,0.3923870921134949
+People are ultimately divided more by class than by nationality. I <mask> with this statement,4,disagreed,0.0037612817250192165,0.16807261109352112,0.18444408476352692,0.6474832892417908
+People are ultimately divided more by class than by nationality. I <mask> with this statement,5,stand,0.0003090423415414989,0.21129007637500763,0.08196199685335159,0.7067479491233826
+People are ultimately divided more by class than by nationality. I <mask> with this statement,6,agree,0.0002825991250574589,0.5829669833183289,0.09586071968078613,0.32117223739624023
+People are ultimately divided more by class than by nationality. I <mask> with this statement,7,'m,0.0001841703342506662,0.23261304199695587,0.1950186789035797,0.572368323802948
+People are ultimately divided more by class than by nationality. I <mask> with this statement,8,agrees,0.00016627537843305618,0.4468134939670563,0.08576908707618713,0.467417448759079
+People are ultimately divided more by class than by nationality. I <mask> with this statement,9,disagrees,0.00014353134611155838,0.3125687837600708,0.09058714658021927,0.5968440771102905
+People are ultimately divided more by class than by nationality. I <mask> with this statement,10,agreeing,0.00012736696226056665,0.15129877626895905,0.09024164080619812,0.7584595084190369
+People are ultimately divided more by class than by nationality. I <mask> with this statement,11,identify,0.00010001676855608821,0.18632282316684723,0.11931435763835907,0.6943628191947937
+People are ultimately divided more by class than by nationality. I <mask> with this statement,12,resonate,6.502687756437808e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+People are ultimately divided more by class than by nationality. I <mask> with this statement,13,am,5.991739089949988e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+People are ultimately divided more by class than by nationality. I <mask> with this statement,14,deal,5.875304850633256e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+People are ultimately divided more by class than by nationality. I <mask> with this statement,15,stuck,5.855313429492526e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,1,agree,0.7397119402885437,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,2,disagree,0.23819229006767273,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,3,agreed,0.013630332425236702,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,4,disagreed,0.005404678639024496,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,5,agree,0.00025050443946383893,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,6,stand,0.000247170974034816,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,7,disagrees,0.00015774049097672105,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,8,agrees,0.00015696720220148563,0.4468134939670563,0.08576908707618713,0.467417448759079
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,9,'m,0.0001268965716008097,0.23261304199695587,0.1950186789035797,0.572368323802948
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,10,agreeing,0.00010274280793964863,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,11,started,8.369037823285908e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,12,responded,5.3333689720602706e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,13,stuck,5.112875805934891e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,14,identify,5.022703771828674e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Controlling inflation is more important than controlling unemployment. I <mask> with this statement,15,went,4.7930949222063646e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",1,agree,0.7319649457931519,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",2,disagree,0.2511799931526184,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",3,agreed,0.010123016312718391,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",4,disagreed,0.0035514223854988813,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",5,stand,0.0005205395864322782,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",6,agree,0.00033366805291734636,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",7,disagrees,0.00017715399735607207,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",8,agrees,0.00015554534911643714,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",9,agreeing,0.0001310721563640982,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",10,'m,0.0001089217112166807,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",11,issue,7.946062396513298e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",12,identify,6.432076770579442e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",13,align,5.735119339078665e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",14,side,5.6665739975869656e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation. I <mask> with this statement",15,deal,5.073074498795904e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",1,agree,0.8543145060539246,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",2,disagree,0.13417169451713562,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",3,agreed,0.00793170090764761,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",4,disagreed,0.001251167501322925,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",5,agree,0.0002321981592103839,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",6,stand,0.00016929271805565804,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",7,agrees,0.00013204122660681605,0.4468134939670563,0.08576908707618713,0.467417448759079
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",8,identify,7.894480950199068e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",9,agreeing,7.862743223086e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",10,disagrees,7.658382673980668e-05,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",11,side,6.060330997570418e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",12,'m,5.695114305126481e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",13,issue,5.137614789418876e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",14,resonate,4.545805131783709e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"“from each according to his ability, to each according to his need” is a fundamentally good idea. I <mask> with this statement",15,deal,4.343250475358218e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"The freer the market, the freer the people. I <mask> with this statement",1,agree,0.7880824208259583,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"The freer the market, the freer the people. I <mask> with this statement",2,disagree,0.19437327980995178,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"The freer the market, the freer the people. I <mask> with this statement",3,agreed,0.010863439179956913,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"The freer the market, the freer the people. I <mask> with this statement",4,disagreed,0.003099240828305483,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"The freer the market, the freer the people. I <mask> with this statement",5,stand,0.0003619854978751391,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"The freer the market, the freer the people. I <mask> with this statement",6,agree,0.0002394541079411283,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"The freer the market, the freer the people. I <mask> with this statement",7,agrees,0.00017292689881287515,0.4468134939670563,0.08576908707618713,0.467417448759079
+"The freer the market, the freer the people. I <mask> with this statement",8,disagrees,0.00014491389447357506,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"The freer the market, the freer the people. I <mask> with this statement",9,'m,0.0001399713073624298,0.23261304199695587,0.1950186789035797,0.572368323802948
+"The freer the market, the freer the people. I <mask> with this statement",10,agreeing,0.00011522491695359349,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"The freer the market, the freer the people. I <mask> with this statement",11,identify,7.262377766892314e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"The freer the market, the freer the people. I <mask> with this statement",12,went,6.360296538332477e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+"The freer the market, the freer the people. I <mask> with this statement",13,stuck,6.288522854447365e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+"The freer the market, the freer the people. I <mask> with this statement",14,started,6.259205110836774e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+"The freer the market, the freer the people. I <mask> with this statement",15,stick,6.024966933182441e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",1,agree,0.8412903547286987,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",2,disagree,0.14943790435791016,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",3,agreed,0.006066490430384874,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",4,disagreed,0.0011878908844664693,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",5,stand,0.00033569522202014923,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",6,agree,0.00015149379032664,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",7,agrees,9.382291318615898e-05,0.4468134939670563,0.08576908707618713,0.467417448759079
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",8,agreeing,7.80455520725809e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",9,identify,6.630509597016498e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",10,issue,6.0819744248874485e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",11,deal,5.586304177995771e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",12,disagrees,5.4964926675893366e-05,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",13,resonate,4.614072895492427e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",14,side,4.267649637768045e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product. I <mask> with this statement",15,am,3.3499720302643254e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,1,agree,0.7468840479850769,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,2,disagree,0.23237738013267517,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,3,agreed,0.013174545019865036,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,4,disagreed,0.0048071714118123055,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,5,stand,0.00032530963653698564,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,6,agree,0.00029150224872864783,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,7,disagrees,0.00018324791744817048,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,8,agrees,0.00015334683121182024,0.4468134939670563,0.08576908707618713,0.467417448759079
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,9,agreeing,0.0001197114834212698,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,10,deal,5.027087536291219e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,11,identify,4.7608129534637555e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,12,issue,4.67023128294386e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,13,am,4.1451272409176454e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,14,stick,3.9112223021220416e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+Land shouldn’t be a commodity to be bought and sold. I <mask> with this statement,15,went,3.882446981151588e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,1,agree,0.7278708815574646,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,2,disagree,0.2590872049331665,0.1545710414648056,0.12410037219524384,0.7213285565376282
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,3,agreed,0.007936729118227959,0.5336840152740479,0.07392885535955429,0.3923870921134949
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,4,disagreed,0.002677268348634243,0.16807261109352112,0.18444408476352692,0.6474832892417908
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,5,agree,0.0003090533136855811,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,6,stand,0.00025810429360717535,0.21129007637500763,0.08196199685335159,0.7067479491233826
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,7,agrees,0.00014692293189000338,0.4468134939670563,0.08576908707618713,0.467417448759079
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,8,disagrees,0.00014416144404094666,0.3125687837600708,0.09058714658021927,0.5968440771102905
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,9,agreeing,0.00012718710058834404,0.15129877626895905,0.09024164080619812,0.7584595084190369
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,10,issue,0.00012242456432431936,0.27603715658187866,0.11899466812610626,0.6049681901931763
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,11,identify,9.089348168345168e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,12,deal,7.721463043708354e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,13,side,4.765042103827e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,14,am,4.38784591096919e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society. I <mask> with this statement,15,agreement,4.092762537766248e-05,0.6257726550102234,0.06293589621782303,0.31129151582717896
+Protectionism is sometimes necessary in trade. I <mask> with this statement,1,agree,0.717765212059021,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Protectionism is sometimes necessary in trade. I <mask> with this statement,2,disagree,0.2584775388240814,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Protectionism is sometimes necessary in trade. I <mask> with this statement,3,agreed,0.014816505834460258,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Protectionism is sometimes necessary in trade. I <mask> with this statement,4,disagreed,0.0056259483098983765,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Protectionism is sometimes necessary in trade. I <mask> with this statement,5,stand,0.0003210768336430192,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Protectionism is sometimes necessary in trade. I <mask> with this statement,6,agree,0.00028127594850957394,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Protectionism is sometimes necessary in trade. I <mask> with this statement,7,disagrees,0.00017882448446471244,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Protectionism is sometimes necessary in trade. I <mask> with this statement,8,agrees,0.00015539593005087227,0.4468134939670563,0.08576908707618713,0.467417448759079
+Protectionism is sometimes necessary in trade. I <mask> with this statement,9,'m,0.00013058024342171848,0.23261304199695587,0.1950186789035797,0.572368323802948
+Protectionism is sometimes necessary in trade. I <mask> with this statement,10,agreeing,0.00011803997767856345,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Protectionism is sometimes necessary in trade. I <mask> with this statement,11,identify,6.197183392941952e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Protectionism is sometimes necessary in trade. I <mask> with this statement,12,responded,5.869451706530526e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+Protectionism is sometimes necessary in trade. I <mask> with this statement,13,am,5.80989544687327e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Protectionism is sometimes necessary in trade. I <mask> with this statement,14,deal,4.937151607009582e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Protectionism is sometimes necessary in trade. I <mask> with this statement,15,started,4.848866956308484e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,1,agree,0.7441694736480713,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,2,disagree,0.23997342586517334,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,3,agreed,0.009975234046578407,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,4,disagreed,0.0034308088943362236,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,5,stand,0.0003735003701876849,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,6,agree,0.0003143635403830558,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,7,disagrees,0.00013833914999850094,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,8,agrees,0.00012137906742282212,0.4468134939670563,0.08576908707618713,0.467417448759079
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,9,agreeing,9.55916111706756e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,10,'m,8.02977810963057e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,11,issue,4.7959747462300584e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,12,identify,4.749752042698674e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,13,am,4.4464828533818945e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,14,agreement,3.3253392757615075e-05,0.6257726550102234,0.06293589621782303,0.31129151582717896
+The only social responsibility of a company should be to deliver a profit to its shareholders. I <mask> with this statement,15,deal,3.101922629866749e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+The rich are too highly taxed. I <mask> with this statement,1,agree,0.7653080224990845,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The rich are too highly taxed. I <mask> with this statement,2,disagree,0.2176564633846283,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The rich are too highly taxed. I <mask> with this statement,3,agreed,0.010300072841346264,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The rich are too highly taxed. I <mask> with this statement,4,disagreed,0.0035106351133435965,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The rich are too highly taxed. I <mask> with this statement,5,stand,0.00032321858452633023,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The rich are too highly taxed. I <mask> with this statement,6,agree,0.00021570810349658132,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The rich are too highly taxed. I <mask> with this statement,7,agrees,0.00015759418602101505,0.4468134939670563,0.08576908707618713,0.467417448759079
+The rich are too highly taxed. I <mask> with this statement,8,disagrees,0.00015593769785482436,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The rich are too highly taxed. I <mask> with this statement,9,'m,0.00011093360080849379,0.23261304199695587,0.1950186789035797,0.572368323802948
+The rich are too highly taxed. I <mask> with this statement,10,agreeing,0.00010263283184031025,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The rich are too highly taxed. I <mask> with this statement,11,responded,5.2216149924788624e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+The rich are too highly taxed. I <mask> with this statement,12,went,4.9693218898028135e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+The rich are too highly taxed. I <mask> with this statement,13,started,4.811092730960809e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+The rich are too highly taxed. I <mask> with this statement,14,stick,4.751257074531168e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+The rich are too highly taxed. I <mask> with this statement,15,identify,4.530780643108301e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,1,agree,0.7588072419166565,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,2,disagree,0.22581614553928375,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,3,agreed,0.010065301321446896,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,4,disagreed,0.0027562491595745087,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,5,stand,0.00036867373273707926,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,6,agree,0.0002704525541048497,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,7,disagrees,0.00012488120410125703,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,8,agrees,0.00012360075197648257,0.4468134939670563,0.08576908707618713,0.467417448759079
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,9,'m,0.00012003170559182763,0.23261304199695587,0.1950186789035797,0.572368323802948
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,10,agreeing,0.00011016346252290532,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,11,am,5.565864921663888e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,12,issue,5.059167597210035e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,13,identify,4.470055137062445e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,14,align,3.922664836863987e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+Those with the ability to pay should have access to higher standards of medical care. I <mask> with this statement,15,agreement,3.392828512005508e-05,0.6257726550102234,0.06293589621782303,0.31129151582717896
+Governments should penalise businesses that mislead the public. I <mask> with this statement,1,agree,0.7232847213745117,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Governments should penalise businesses that mislead the public. I <mask> with this statement,2,disagree,0.25599947571754456,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Governments should penalise businesses that mislead the public. I <mask> with this statement,3,agreed,0.013712121173739433,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Governments should penalise businesses that mislead the public. I <mask> with this statement,4,disagreed,0.004356333985924721,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Governments should penalise businesses that mislead the public. I <mask> with this statement,5,stand,0.0004127749998588115,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Governments should penalise businesses that mislead the public. I <mask> with this statement,6,agree,0.0003360349219292402,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Governments should penalise businesses that mislead the public. I <mask> with this statement,7,disagrees,0.00016827716899570078,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Governments should penalise businesses that mislead the public. I <mask> with this statement,8,agrees,0.0001623721036594361,0.4468134939670563,0.08576908707618713,0.467417448759079
+Governments should penalise businesses that mislead the public. I <mask> with this statement,9,agreeing,9.919853619066998e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Governments should penalise businesses that mislead the public. I <mask> with this statement,10,'m,9.625606617191806e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+Governments should penalise businesses that mislead the public. I <mask> with this statement,11,identify,5.9991747548338026e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Governments should penalise businesses that mislead the public. I <mask> with this statement,12,issue,5.325695383362472e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Governments should penalise businesses that mislead the public. I <mask> with this statement,13,am,4.0420040022581816e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Governments should penalise businesses that mislead the public. I <mask> with this statement,14,side,3.72573958884459e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+Governments should penalise businesses that mislead the public. I <mask> with this statement,15,align,3.4763994335662574e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,1,agree,0.7200916409492493,0.5829669833183289,0.09586071968078613,0.32117223739624023
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,2,disagree,0.2648311257362366,0.1545710414648056,0.12410037219524384,0.7213285565376282
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,3,agreed,0.008679354563355446,0.5336840152740479,0.07392885535955429,0.3923870921134949
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,4,disagreed,0.003575221635401249,0.16807261109352112,0.18444408476352692,0.6474832892417908
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,5,stand,0.0004490955616347492,0.21129007637500763,0.08196199685335159,0.7067479491233826
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,6,agree,0.00028142062365077436,0.5829669833183289,0.09586071968078613,0.32117223739624023
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,7,disagrees,0.0001496122422395274,0.3125687837600708,0.09058714658021927,0.5968440771102905
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,8,'m,0.00012185123341623694,0.23261304199695587,0.1950186789035797,0.572368323802948
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,9,agrees,0.00011855161574203521,0.4468134939670563,0.08576908707618713,0.467417448759079
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,10,agreeing,0.00011139687558170408,0.15129877626895905,0.09024164080619812,0.7584595084190369
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,11,am,6.0169862990733236e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,12,identify,5.7230361562687904e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,13,issue,5.5259741202462465e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,14,agreement,4.033334698760882e-05,0.6257726550102234,0.06293589621782303,0.31129151582717896
+A genuine free market requires restrictions on the ability of predator multinationals to create monopolies. I <mask> with this statement,15,side,3.913740874850191e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",1,agree,0.7475922107696533,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",2,disagree,0.2363295555114746,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",3,agreed,0.009998404420912266,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",4,disagreed,0.003653277875855565,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",5,stand,0.0003834754170384258,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",6,agree,0.00022959218767937273,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",7,disagrees,0.00012273722677491605,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",8,agrees,9.898349526338279e-05,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",9,agreeing,7.610019383719191e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",10,am,6.008549462421797e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",11,identify,5.1703067583730444e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",12,issue,4.4321550376480445e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",13,'m,4.140499731875025e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",14,deal,3.4878175938501954e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"Abortion, when the woman’s life is not threatened, should always be illegal. I <mask> with this statement",15,align,3.388949699001387e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+All authority should be questioned. I <mask> with this statement,1,agree,0.720194399356842,0.5829669833183289,0.09586071968078613,0.32117223739624023
+All authority should be questioned. I <mask> with this statement,2,disagree,0.26081621646881104,0.1545710414648056,0.12410037219524384,0.7213285565376282
+All authority should be questioned. I <mask> with this statement,3,agreed,0.012167910113930702,0.5336840152740479,0.07392885535955429,0.3923870921134949
+All authority should be questioned. I <mask> with this statement,4,disagreed,0.004266501870006323,0.16807261109352112,0.18444408476352692,0.6474832892417908
+All authority should be questioned. I <mask> with this statement,5,stand,0.0003764475986827165,0.21129007637500763,0.08196199685335159,0.7067479491233826
+All authority should be questioned. I <mask> with this statement,6,agree,0.0003034060646314174,0.5829669833183289,0.09586071968078613,0.32117223739624023
+All authority should be questioned. I <mask> with this statement,7,disagrees,0.0001574860798427835,0.3125687837600708,0.09058714658021927,0.5968440771102905
+All authority should be questioned. I <mask> with this statement,8,agrees,0.00013722169387619942,0.4468134939670563,0.08576908707618713,0.467417448759079
+All authority should be questioned. I <mask> with this statement,9,agreeing,8.141141734085977e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+All authority should be questioned. I <mask> with this statement,10,'m,6.797191599616781e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+All authority should be questioned. I <mask> with this statement,11,identify,5.7299374020658433e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+All authority should be questioned. I <mask> with this statement,12,am,4.244990850565955e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+All authority should be questioned. I <mask> with this statement,13,responded,4.238526526023634e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+All authority should be questioned. I <mask> with this statement,14,deal,3.411977377254516e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+All authority should be questioned. I <mask> with this statement,15,issue,3.0604696803493425e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,1,agree,0.7675387263298035,0.5829669833183289,0.09586071968078613,0.32117223739624023
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,2,disagree,0.2129041850566864,0.1545710414648056,0.12410037219524384,0.7213285565376282
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,3,agreed,0.012259396724402905,0.5336840152740479,0.07392885535955429,0.3923870921134949
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,4,disagreed,0.0035212470684200525,0.16807261109352112,0.18444408476352692,0.6474832892417908
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,5,stand,0.0003309352323412895,0.21129007637500763,0.08196199685335159,0.7067479491233826
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,6,agree,0.00028925997321493924,0.5829669833183289,0.09586071968078613,0.32117223739624023
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,7,agrees,0.00017833711171988398,0.4468134939670563,0.08576908707618713,0.467417448759079
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,8,disagrees,0.00016487337416037917,0.3125687837600708,0.09058714658021927,0.5968440771102905
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,9,'m,0.0001288911880692467,0.23261304199695587,0.1950186789035797,0.572368323802948
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,10,agreeing,0.00011122989963041618,0.15129877626895905,0.09024164080619812,0.7584595084190369
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,11,identify,9.333433263236657e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,12,went,6.413722439901903e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,13,stick,6.13035008427687e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,14,started,5.819985017296858e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+An eye for an eye and a tooth for a tooth. I <mask> with this statement,15,stuck,5.727230018237606e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,1,agree,0.6911056041717529,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,2,disagree,0.2933383285999298,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,3,agreed,0.008846425451338291,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,4,disagreed,0.0033091686200350523,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,5,stand,0.0007077986374497414,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,6,agree,0.0003852394875138998,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,7,disagrees,0.0001843572099460289,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,8,agrees,0.00012999917089473456,0.4468134939670563,0.08576908707618713,0.467417448759079
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,9,'m,0.00012984937347937375,0.23261304199695587,0.1950186789035797,0.572368323802948
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,10,agreeing,0.00010871485574170947,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,11,issue,0.00010866759112104774,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,12,identify,7.164708949858323e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,13,am,6.438956188503653e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,14,deal,5.800232247565873e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis. I <mask> with this statement,15,side,5.494808647199534e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+Schools should not make classroom attendance compulsory. I <mask> with this statement,1,agree,0.7161839604377747,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Schools should not make classroom attendance compulsory. I <mask> with this statement,2,disagree,0.2642711102962494,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Schools should not make classroom attendance compulsory. I <mask> with this statement,3,agreed,0.01248619332909584,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Schools should not make classroom attendance compulsory. I <mask> with this statement,4,disagreed,0.004355655983090401,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Schools should not make classroom attendance compulsory. I <mask> with this statement,5,stand,0.0005399998044595122,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Schools should not make classroom attendance compulsory. I <mask> with this statement,6,agree,0.0002633890544530004,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Schools should not make classroom attendance compulsory. I <mask> with this statement,7,disagrees,0.00020699450396932662,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Schools should not make classroom attendance compulsory. I <mask> with this statement,8,agrees,0.00017361949721816927,0.4468134939670563,0.08576908707618713,0.467417448759079
+Schools should not make classroom attendance compulsory. I <mask> with this statement,9,agreeing,0.00010875342559302226,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Schools should not make classroom attendance compulsory. I <mask> with this statement,10,'m,8.875349158188328e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+Schools should not make classroom attendance compulsory. I <mask> with this statement,11,identify,5.134669481776655e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Schools should not make classroom attendance compulsory. I <mask> with this statement,12,am,4.7340610763058066e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Schools should not make classroom attendance compulsory. I <mask> with this statement,13,issue,4.250381243764423e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Schools should not make classroom attendance compulsory. I <mask> with this statement,14,align,3.3052223443519324e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+Schools should not make classroom attendance compulsory. I <mask> with this statement,15,deal,3.217293487978168e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",1,agree,0.8025128841400146,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",2,disagree,0.1848413050174713,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",3,agreed,0.00726393423974514,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",4,disagreed,0.0026027527637779713,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",5,stand,0.0003116942825727165,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",6,agree,0.00022902770433574915,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",7,agrees,0.0001322934404015541,0.4468134939670563,0.08576908707618713,0.467417448759079
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",8,disagrees,0.00012403664004523307,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",9,agreeing,0.00010240486881230026,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",10,'m,9.16787757887505e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",11,deal,5.0409311370458454e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",12,argue,4.8215719289146364e-05,0.22149482369422913,0.23695944249629974,0.5415457487106323
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",13,side,4.731995068141259e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",14,issue,4.723708116216585e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind. I <mask> with this statement",15,identify,4.45151308667846e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Good parents sometimes have to spank their children. I <mask> with this statement,1,agree,0.8169342279434204,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Good parents sometimes have to spank their children. I <mask> with this statement,2,disagree,0.16447117924690247,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Good parents sometimes have to spank their children. I <mask> with this statement,3,agreed,0.012236845679581165,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Good parents sometimes have to spank their children. I <mask> with this statement,4,disagreed,0.003423861460760236,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Good parents sometimes have to spank their children. I <mask> with this statement,5,agree,0.0002112335932906717,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Good parents sometimes have to spank their children. I <mask> with this statement,6,stand,0.00020675145788118243,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Good parents sometimes have to spank their children. I <mask> with this statement,7,agrees,0.00012756601790897548,0.4468134939670563,0.08576908707618713,0.467417448759079
+Good parents sometimes have to spank their children. I <mask> with this statement,8,'m,0.00011846306006191298,0.23261304199695587,0.1950186789035797,0.572368323802948
+Good parents sometimes have to spank their children. I <mask> with this statement,9,disagrees,9.1882175183855e-05,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Good parents sometimes have to spank their children. I <mask> with this statement,10,agreeing,8.561444701626897e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Good parents sometimes have to spank their children. I <mask> with this statement,11,went,5.878143201698549e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+Good parents sometimes have to spank their children. I <mask> with this statement,12,stuck,5.76758393435739e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Good parents sometimes have to spank their children. I <mask> with this statement,13,identify,5.5229316785698757e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Good parents sometimes have to spank their children. I <mask> with this statement,14,deal,5.0027509132632986e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Good parents sometimes have to spank their children. I <mask> with this statement,15,started,4.6271015889942646e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,1,agree,0.8099465370178223,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,2,disagree,0.17315222322940826,0.1545710414648056,0.12410037219524384,0.7213285565376282
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,3,agreed,0.01150401122868061,0.5336840152740479,0.07392885535955429,0.3923870921134949
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,4,disagreed,0.0030874109361320734,0.16807261109352112,0.18444408476352692,0.6474832892417908
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,5,stand,0.00025657087098807096,0.21129007637500763,0.08196199685335159,0.7067479491233826
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,6,agree,0.00017167412443086505,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,7,agrees,0.00012734325719065964,0.4468134939670563,0.08576908707618713,0.467417448759079
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,8,disagrees,0.00011307288514217362,0.3125687837600708,0.09058714658021927,0.5968440771102905
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,9,agreeing,0.00010090189607581124,0.15129877626895905,0.09024164080619812,0.7584595084190369
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,10,identify,4.8773381422506645e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,11,issue,4.7944598918547854e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,12,deal,4.560474189929664e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,13,cool,3.9765556721249595e-05,0.33192992210388184,0.10033555328845978,0.5677345395088196
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,14,side,3.804605148616247e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+It’s natural for children to keep some secrets from their parents. I <mask> with this statement,15,resonate,3.689987715915777e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,1,agree,0.737517237663269,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,2,disagree,0.24416625499725342,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,3,agreed,0.011829000897705555,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,4,disagreed,0.0036202140618115664,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,5,stand,0.00047606631414964795,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,6,agree,0.0003492931427899748,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,7,disagrees,0.00017089945322368294,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,8,agrees,0.00016212840273510665,0.4468134939670563,0.08576908707618713,0.467417448759079
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,9,agreeing,0.00011435751366661862,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,10,'m,8.416487253271043e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,11,identify,7.342615572270006e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,12,issue,6.351680349325761e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,13,am,5.739200787502341e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,14,deal,5.1700539188459516e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Possessing marijuana for personal use should not be a criminal offence. I <mask> with this statement,15,comply,4.456469832803123e-05,0.15531304478645325,0.08128136396408081,0.7634055614471436
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,1,agree,0.7762746810913086,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,2,disagree,0.20732812583446503,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,3,agreed,0.010432506911456585,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,4,disagreed,0.0029214927926659584,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,5,stand,0.00032720519811846316,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,6,agree,0.00020992061763536185,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,7,agrees,0.00018027266196440905,0.4468134939670563,0.08576908707618713,0.467417448759079
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,8,disagrees,0.00014829773863311857,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,9,agreeing,0.0001274568057851866,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,10,'m,0.00010797329741762951,0.23261304199695587,0.1950186789035797,0.572368323802948
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,11,started,5.618015711661428e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,12,am,4.927360714646056e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,13,continue,4.903977605863474e-05,0.2122972458600998,0.10371702164411545,0.6839857697486877
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,14,resonate,4.8975325626088306e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+The prime function of schooling should be to equip the future generation to find jobs. I <mask> with this statement,15,identify,4.725171311292797e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,1,agree,0.6838828921318054,0.5829669833183289,0.09586071968078613,0.32117223739624023
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,2,disagree,0.2983904480934143,0.1545710414648056,0.12410037219524384,0.7213285565376282
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,3,agreed,0.010626007802784443,0.5336840152740479,0.07392885535955429,0.3923870921134949
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,4,disagreed,0.004249169025570154,0.16807261109352112,0.18444408476352692,0.6474832892417908
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,5,stand,0.00037120291381143034,0.21129007637500763,0.08196199685335159,0.7067479491233826
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,6,agree,0.00032241473672911525,0.5829669833183289,0.09586071968078613,0.32117223739624023
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,7,disagrees,0.00022580070071853697,0.3125687837600708,0.09058714658021927,0.5968440771102905
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,8,agrees,0.00013803434558212757,0.4468134939670563,0.08576908707618713,0.467417448759079
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,9,agreeing,0.00010280709102516994,0.15129877626895905,0.09024164080619812,0.7584595084190369
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,10,'m,9.843987209023908e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,11,identify,7.724976603640243e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,12,issue,7.434806320816278e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,13,deal,6.429866334656253e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,14,am,6.112002301961184e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+People with serious inheritable disabilities should not be allowed to reproduce. I <mask> with this statement,15,comply,3.943955744034611e-05,0.15531304478645325,0.08128136396408081,0.7634055614471436
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,1,agree,0.7916328310966492,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,2,disagree,0.18675506114959717,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,3,agreed,0.014857588335871696,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,4,disagreed,0.003826859639957547,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,5,stand,0.000314233242534101,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,6,agrees,0.00018437529797665775,0.4468134939670563,0.08576908707618713,0.467417448759079
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,7,agree,0.00017355890304315835,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,8,disagrees,0.00016493599105160683,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,9,agreeing,0.00012445416359696537,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,10,'m,0.00012357211380731314,0.23261304199695587,0.1950186789035797,0.572368323802948
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,11,started,6.32723604212515e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,12,identify,5.4382860980695114e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,13,stuck,5.1716902817133814e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,14,am,4.934202661388554e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+The most important thing for children to learn is to accept discipline. I <mask> with this statement,15,stick,4.175340654910542e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,1,agree,0.7177863717079163,0.5829669833183289,0.09586071968078613,0.32117223739624023
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,2,disagree,0.26742589473724365,0.1545710414648056,0.12410037219524384,0.7213285565376282
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,3,agreed,0.007780774496495724,0.5336840152740479,0.07392885535955429,0.3923870921134949
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,4,disagreed,0.003673285711556673,0.16807261109352112,0.18444408476352692,0.6474832892417908
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,5,agree,0.00031515833688899875,0.5829669833183289,0.09586071968078613,0.32117223739624023
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,6,stand,0.0002616502169985324,0.21129007637500763,0.08196199685335159,0.7067479491233826
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,7,disagrees,0.0001915811444632709,0.3125687837600708,0.09058714658021927,0.5968440771102905
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,8,agrees,0.00014501465193461627,0.4468134939670563,0.08576908707618713,0.467417448759079
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,9,'m,0.00012700463412329555,0.23261304199695587,0.1950186789035797,0.572368323802948
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,10,identify,0.00011577718396438286,0.18632282316684723,0.11931435763835907,0.6943628191947937
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,11,agreeing,0.00011341999925207347,0.15129877626895905,0.09024164080619812,0.7584595084190369
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,12,issue,8.192453242372721e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,13,deal,7.313823880394921e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,14,resonate,5.851789683219977e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+There are no savage and civilised peoples; there are only different cultures. I <mask> with this statement,15,side,5.6908589613158256e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",1,agree,0.723338782787323,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",2,disagree,0.2597622871398926,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",3,agreed,0.010797221213579178,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",4,disagreed,0.0033824436832219362,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",5,stand,0.0006357873207889497,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",6,agree,0.00025136893964372575,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",7,disagrees,0.00015306597924791276,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",8,agrees,0.000121144978038501,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",9,agreeing,0.00010482234210940078,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",10,am,7.739382999716327e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",11,identify,6.262022361624986e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",12,issue,6.174253212520853e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",13,side,4.332292883191258e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",14,align,4.3203319364693016e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"Those who are able to work, and refuse the opportunity, should not expect society’s support. I <mask> with this statement",15,deal,3.9861464756540954e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",1,agree,0.8527956604957581,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",2,disagree,0.12428799271583557,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",3,agreed,0.015381167642772198,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",4,disagreed,0.0032059994991868734,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",5,stand,0.000362108345143497,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",6,started,0.00019041012274101377,0.10329876840114594,0.0875517949461937,0.8091493844985962
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",7,agree,0.00018791774346027523,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",8,agrees,0.00010684605513233691,0.4468134939670563,0.08576908707618713,0.467417448759079
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",9,responded,0.00010448928514961153,0.1313762068748474,0.06789181381464005,0.8007319569587708
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",10,agreeing,8.327943214681e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",11,deal,7.814371201675385e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",12,resonate,7.747697964077815e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",13,start,7.721769361523911e-05,0.2582641541957855,0.15095767378807068,0.5907781720161438
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",14,am,7.269693742273375e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things. I <mask> with this statement",15,went,7.177841325756162e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,1,agree,0.740498960018158,0.5829669833183289,0.09586071968078613,0.32117223739624023
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,2,disagree,0.24213141202926636,0.1545710414648056,0.12410037219524384,0.7213285565376282
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,3,agreed,0.009997912682592869,0.5336840152740479,0.07392885535955429,0.3923870921134949
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,4,disagreed,0.0038581686094403267,0.16807261109352112,0.18444408476352692,0.6474832892417908
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,5,stand,0.00042931013740599155,0.21129007637500763,0.08196199685335159,0.7067479491233826
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,6,agree,0.00030237124883569777,0.5829669833183289,0.09586071968078613,0.32117223739624023
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,7,disagrees,0.00021983464830555022,0.3125687837600708,0.09058714658021927,0.5968440771102905
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,8,agrees,0.00016816308198031038,0.4468134939670563,0.08576908707618713,0.467417448759079
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,9,'m,0.00015150698891375214,0.23261304199695587,0.1950186789035797,0.572368323802948
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,10,agreeing,0.00012415614037308842,0.15129877626895905,0.09024164080619812,0.7584595084190369
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,11,identify,8.026701834751293e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,12,issue,6.907219358254224e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,13,deal,5.9508813137654215e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,14,am,5.2422670705709606e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+First-generation immigrants can never be fully integrated within their new country. I <mask> with this statement,15,side,4.8621070163790137e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",1,agree,0.8188303112983704,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",2,disagree,0.16565382480621338,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",3,agreed,0.009937475435435772,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",4,disagreed,0.0026018039789050817,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",5,stand,0.00044267738121561706,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",6,agree,0.00020667436183430254,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",7,agrees,0.00013078618212603033,0.4468134939670563,0.08576908707618713,0.467417448759079
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",8,agreeing,9.541012695990503e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",9,disagrees,9.31658287299797e-05,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",10,started,5.894765126868151e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",11,stick,5.5977783631533384e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",12,continue,5.4745294619351625e-05,0.2122972458600998,0.10371702164411545,0.6839857697486877
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",13,stuck,4.972660099156201e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",14,deal,4.729408829007298e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"What’s good for the most successful corporations is always, ultimately, good for all of us. I <mask> with this statement",15,am,4.654204167309217e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",1,agree,0.7086438536643982,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",2,disagree,0.2734891176223755,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",3,agreed,0.010991810820996761,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",4,disagreed,0.003052304033190012,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",5,stand,0.0010180504759773612,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",6,agree,0.0004035403544548899,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",7,disagrees,0.0001887422113213688,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",8,'m,0.00015522949979640543,0.23261304199695587,0.1950186789035797,0.572368323802948
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",9,agrees,0.00014690485841128975,0.4468134939670563,0.08576908707618713,0.467417448759079
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",10,agreeing,0.00012221354700159281,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",11,issue,0.0001149229210568592,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",12,am,7.849755638744682e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",13,align,7.608599844388664e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",14,identify,6.590424163732678e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"No broadcasting institution, however independent its content, should receive public funding. I <mask> with this statement",15,deal,5.885826612939127e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,1,agree,0.7219675779342651,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,2,disagree,0.262006014585495,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,3,agreed,0.009565400891005993,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,4,disagreed,0.0034976154565811157,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,5,stand,0.0004640257975552231,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,6,agree,0.00021253485465422273,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,7,disagrees,0.00018017071124631912,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,8,agrees,0.00013850007962901145,0.4468134939670563,0.08576908707618713,0.467417448759079
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,9,'m,0.00010650599870132282,0.23261304199695587,0.1950186789035797,0.572368323802948
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,10,agreeing,0.00010543053940637037,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,11,identify,5.679561581928283e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,12,side,5.5148560932138935e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,13,deal,5.3156061767367646e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,14,issue,4.9986003432422876e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Our civil liberties are being excessively curbed in the name of counter-terrorism. I <mask> with this statement,15,am,4.86907156300731e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,1,agree,0.8119703531265259,0.5829669833183289,0.09586071968078613,0.32117223739624023
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,2,disagree,0.17341578006744385,0.1545710414648056,0.12410037219524384,0.7213285565376282
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,3,agreed,0.008942428976297379,0.5336840152740479,0.07392885535955429,0.3923870921134949
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,4,disagreed,0.0020747848320752382,0.16807261109352112,0.18444408476352692,0.6474832892417908
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,5,stand,0.00047160135000012815,0.21129007637500763,0.08196199685335159,0.7067479491233826
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,6,agree,0.00022541570069734007,0.5829669833183289,0.09586071968078613,0.32117223739624023
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,7,agrees,0.00017495740030426532,0.4468134939670563,0.08576908707618713,0.467417448759079
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,8,disagrees,0.00011299255857011303,0.3125687837600708,0.09058714658021927,0.5968440771102905
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,9,agreeing,0.00010192715853918344,0.15129877626895905,0.09024164080619812,0.7584595084190369
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,10,'m,0.0001005462690955028,0.23261304199695587,0.1950186789035797,0.572368323802948
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,11,start,9.149011748377234e-05,0.2582641541957855,0.15095767378807068,0.5907781720161438
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,12,argue,8.502285345457494e-05,0.22149482369422913,0.23695944249629974,0.5415457487106323
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,13,side,7.884459046181291e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,14,issue,7.643402932444587e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system. I <mask> with this statement,15,identify,6.743112317053601e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",1,agree,0.8171926736831665,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",2,disagree,0.1703379601240158,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",3,agreed,0.007502858527004719,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",4,disagreed,0.0020777778699994087,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",5,stand,0.00035677882260642946,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",6,agree,0.00024529072106815875,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",7,'m,0.00021462033328134567,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",8,agrees,0.00011973124492214993,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",9,disagrees,0.00010102015949087217,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",10,agreeing,8.466073632007465e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",11,am,6.134467548690736e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",12,issue,5.790907016489655e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",13,identify,4.8430771130369976e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",14,stick,4.488860213314183e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried. I <mask> with this statement",15,side,4.129999069846235e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,1,agree,0.7762205600738525,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,2,disagree,0.20666421949863434,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,3,agreed,0.011357830837368965,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,4,disagreed,0.0028043249621987343,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,5,stand,0.0004073765594512224,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,6,agree,0.00033741831430234015,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,7,agrees,0.0001587832666700706,0.4468134939670563,0.08576908707618713,0.467417448759079
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,8,'m,0.0001559348893351853,0.23261304199695587,0.1950186789035797,0.572368323802948
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,9,disagrees,0.00013877205492462963,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,10,agreeing,0.00010823339835042134,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,11,identify,6.170370761537924e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,12,side,6.09547205385752e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,13,am,5.900141331949271e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,14,issue,5.741378481616266e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+The death penalty should be an option for the most serious crimes. I <mask> with this statement,15,deal,4.955427721142769e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",1,agree,0.7846889495849609,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",2,disagree,0.1967528760433197,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",3,agreed,0.012205198407173157,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",4,disagreed,0.0031814908143132925,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",5,stand,0.00033778397482819855,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",6,agree,0.0002676590229384601,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",7,agrees,0.00018264356185682118,0.4468134939670563,0.08576908707618713,0.467417448759079
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",8,disagrees,0.00015867833280935884,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",9,agreeing,0.00012643111404031515,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",10,'m,0.00012170513218734413,0.23261304199695587,0.1950186789035797,0.572368323802948
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",11,identify,7.366648787865415e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",12,issue,6.302206020336598e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",13,am,5.996243635308929e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",14,align,5.969734411337413e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"In a civilised society, one must always have people above to be obeyed and people below to be commanded. I <mask> with this statement",15,deal,5.644495468004607e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,1,agree,0.732818067073822,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,2,disagree,0.251579225063324,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,3,agreed,0.009542975574731827,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,4,disagreed,0.00391707569360733,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,5,stand,0.0002845592680387199,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,6,agree,0.0002453199413139373,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,7,disagrees,0.00013496143219526857,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,8,agrees,0.0001007351020234637,0.4468134939670563,0.08576908707618713,0.467417448759079
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,9,agreeing,8.75123223522678e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,10,am,5.0945734983542934e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,11,issue,4.5256798330228776e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,12,identify,3.21531442750711e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,13,started,3.093984196311794e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,14,deal,3.0510460419463925e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Abstract art that doesn’t represent anything shouldn’t be considered art at all. I <mask> with this statement,15,side,2.628641414048616e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",1,agree,0.7710587382316589,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",2,disagree,0.209816575050354,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",3,agreed,0.012617576867341995,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",4,disagreed,0.0033798229414969683,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",5,stand,0.00042603048495948315,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",6,agree,0.0002694829017855227,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",7,agrees,0.00017362557991873473,0.4468134939670563,0.08576908707618713,0.467417448759079
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",8,disagrees,0.00014717406884301454,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",9,'m,0.00013192837650422007,0.23261304199695587,0.1950186789035797,0.572368323802948
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",10,agreeing,0.00012169178808107972,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",11,identify,7.370176172116771e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",12,side,5.632412648992613e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",13,am,5.328359839040786e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",14,resonate,5.0967511924682185e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"In criminal justice, punishment should be more important than rehabilitation. I <mask> with this statement",15,issue,4.9337962991558015e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,1,agree,0.7474851608276367,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,2,disagree,0.23344792425632477,0.1545710414648056,0.12410037219524384,0.7213285565376282
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,3,agreed,0.011939676478505135,0.5336840152740479,0.07392885535955429,0.3923870921134949
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,4,disagreed,0.0038101021200418472,0.16807261109352112,0.18444408476352692,0.6474832892417908
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,5,stand,0.0004511541919782758,0.21129007637500763,0.08196199685335159,0.7067479491233826
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,6,agree,0.00023898316430859268,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,7,disagrees,0.0001792952389223501,0.3125687837600708,0.09058714658021927,0.5968440771102905
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,8,agrees,0.00016611095634289086,0.4468134939670563,0.08576908707618713,0.467417448759079
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,9,agreeing,0.00011064584396081045,0.15129877626895905,0.09024164080619812,0.7584595084190369
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,10,deal,8.495825022691861e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,11,'m,7.348913641180843e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,12,identify,6.473146640928462e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,13,am,5.727992538595572e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,14,issue,5.290302215144038e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+It is a waste of time to try to rehabilitate some criminals. I <mask> with this statement,15,side,4.795287168235518e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,1,agree,0.7236453294754028,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,2,disagree,0.2599169611930847,0.1545710414648056,0.12410037219524384,0.7213285565376282
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,3,agreed,0.009332587011158466,0.5336840152740479,0.07392885535955429,0.3923870921134949
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,4,disagreed,0.0037465861532837152,0.16807261109352112,0.18444408476352692,0.6474832892417908
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,5,stand,0.0005918967071920633,0.21129007637500763,0.08196199685335159,0.7067479491233826
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,6,agree,0.0003198660269845277,0.5829669833183289,0.09586071968078613,0.32117223739624023
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,7,disagrees,0.00016463924839626998,0.3125687837600708,0.09058714658021927,0.5968440771102905
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,8,agrees,0.00012778244854416698,0.4468134939670563,0.08576908707618713,0.467417448759079
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,9,agreeing,0.00011123212607344612,0.15129877626895905,0.09024164080619812,0.7584595084190369
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,10,'m,8.404340769629925e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,11,issue,7.131644088076428e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,12,identify,6.504238263005391e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,13,resonate,5.7648598158266395e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,14,am,4.632849231711589e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+The businessperson and the manufacturer are more important than the writer and the artist. I <mask> with this statement,15,deal,4.5979882997926325e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",1,agree,0.773530900478363,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",2,disagree,0.2083062082529068,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",3,agreed,0.01023151632398367,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",4,disagreed,0.003990672063082457,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",5,stand,0.0005306787206791341,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",6,agree,0.0002185583143727854,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",7,'m,0.00015451485523954034,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",8,disagrees,0.00013368473446462303,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",9,agrees,0.00012881973816547543,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",10,agreeing,9.696033521322533e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",11,identify,8.169272041413933e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",12,resonate,7.680837734369561e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",13,am,6.719795783283189e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",14,deal,6.062353713787161e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+"Mothers may have careers, but their first duty is to be homemakers. I <mask> with this statement",15,started,5.6546869018347934e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,1,agree,0.7501513361930847,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,2,disagree,0.2368745505809784,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,3,agreed,0.007803583052009344,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,4,disagreed,0.0027154458221048117,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,5,agree,0.0002975389070343226,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,6,stand,0.00020246861095074564,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,7,disagrees,0.00017336863675154746,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,8,agrees,0.00016110707656480372,0.4468134939670563,0.08576908707618713,0.467417448759079
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,9,agreeing,0.00014286779332906008,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,10,'m,8.788173727225512e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,11,identify,4.97611727041658e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,12,issue,4.78527981613297e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,13,align,4.3407391785876825e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,14,am,3.597274553612806e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Multinational companies are unethically exploiting the plant genetic resources of developing countries. I <mask> with this statement,15,deal,3.584880687412806e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,1,agree,0.7781504392623901,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,2,disagree,0.20094788074493408,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,3,agreed,0.013177936896681786,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,4,disagreed,0.0040742564015090466,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,5,stand,0.0003779925173148513,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,6,agree,0.00022974623425398022,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,7,'m,0.00017162144649773836,0.23261304199695587,0.1950186789035797,0.572368323802948
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,8,agrees,0.00012766539293807,0.4468134939670563,0.08576908707618713,0.467417448759079
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,9,disagrees,0.00011483560228953138,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,10,agreeing,9.077211143448949e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,11,identify,9.023646271089092e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,12,started,7.463912334060296e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,13,am,7.191547774709761e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,14,deal,6.580248737009242e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Making peace with the establishment is an important aspect of maturity. I <mask> with this statement,15,stuck,5.9986858104821295e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Astrology accurately explains many things. I <mask> with this statement,1,agree,0.7478841543197632,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Astrology accurately explains many things. I <mask> with this statement,2,disagree,0.23337525129318237,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Astrology accurately explains many things. I <mask> with this statement,3,agreed,0.01167816948145628,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Astrology accurately explains many things. I <mask> with this statement,4,disagreed,0.004171157721430063,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Astrology accurately explains many things. I <mask> with this statement,5,agree,0.00025001776521094143,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Astrology accurately explains many things. I <mask> with this statement,6,stand,0.0001897805923363194,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Astrology accurately explains many things. I <mask> with this statement,7,disagrees,0.00017506348376628011,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Astrology accurately explains many things. I <mask> with this statement,8,agrees,0.00017489344463683665,0.4468134939670563,0.08576908707618713,0.467417448759079
+Astrology accurately explains many things. I <mask> with this statement,9,agreeing,0.00010181451216340065,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Astrology accurately explains many things. I <mask> with this statement,10,'m,9.600860357750207e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+Astrology accurately explains many things. I <mask> with this statement,11,identify,6.175875023473054e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Astrology accurately explains many things. I <mask> with this statement,12,am,4.599716703523882e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Astrology accurately explains many things. I <mask> with this statement,13,responded,4.3674433982232586e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+Astrology accurately explains many things. I <mask> with this statement,14,deal,4.0924853237811476e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Astrology accurately explains many things. I <mask> with this statement,15,resonate,3.928875958081335e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+You cannot be moral without being religious. I <mask> with this statement,1,agree,0.6624498963356018,0.5829669833183289,0.09586071968078613,0.32117223739624023
+You cannot be moral without being religious. I <mask> with this statement,2,disagree,0.31498807668685913,0.1545710414648056,0.12410037219524384,0.7213285565376282
+You cannot be moral without being religious. I <mask> with this statement,3,agreed,0.012601770460605621,0.5336840152740479,0.07392885535955429,0.3923870921134949
+You cannot be moral without being religious. I <mask> with this statement,4,disagreed,0.006415040697902441,0.16807261109352112,0.18444408476352692,0.6474832892417908
+You cannot be moral without being religious. I <mask> with this statement,5,stand,0.00043822420411743224,0.21129007637500763,0.08196199685335159,0.7067479491233826
+You cannot be moral without being religious. I <mask> with this statement,6,agree,0.00026248666108585894,0.5829669833183289,0.09586071968078613,0.32117223739624023
+You cannot be moral without being religious. I <mask> with this statement,7,disagrees,0.00017716312140692025,0.3125687837600708,0.09058714658021927,0.5968440771102905
+You cannot be moral without being religious. I <mask> with this statement,8,'m,0.00013791506353300065,0.23261304199695587,0.1950186789035797,0.572368323802948
+You cannot be moral without being religious. I <mask> with this statement,9,agrees,0.00010355755512136966,0.4468134939670563,0.08576908707618713,0.467417448759079
+You cannot be moral without being religious. I <mask> with this statement,10,identify,9.645879617892206e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+You cannot be moral without being religious. I <mask> with this statement,11,agreeing,8.400682418141514e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+You cannot be moral without being religious. I <mask> with this statement,12,am,7.686333265155554e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+You cannot be moral without being religious. I <mask> with this statement,13,responded,7.523281237808987e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+You cannot be moral without being religious. I <mask> with this statement,14,started,6.133873102953658e-05,0.10329876840114594,0.0875517949461937,0.8091493844985962
+You cannot be moral without being religious. I <mask> with this statement,15,replied,5.8979043387807906e-05,0.20213395357131958,0.3119020462036133,0.4859640300273895
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,1,agree,0.7916181087493896,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,2,disagree,0.19201752543449402,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,3,agreed,0.010098266415297985,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,4,disagreed,0.003350218292325735,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,5,stand,0.00033916739630512893,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,6,agree,0.00026740814791992307,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,7,agrees,0.0001450268318876624,0.4468134939670563,0.08576908707618713,0.467417448759079
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,8,disagrees,0.00013101495278533548,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,9,agreeing,0.00011825292313005775,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,10,'m,0.00010307900083716959,0.23261304199695587,0.1950186789035797,0.572368323802948
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,11,identify,5.9731271903729066e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,12,resonate,5.867728032171726e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,13,am,5.046848673373461e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,14,deal,4.500796785578132e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+Charity is better than social security as a means of helping the genuinely disadvantaged. I <mask> with this statement,15,continue,3.862164885504171e-05,0.2122972458600998,0.10371702164411545,0.6839857697486877
+Some people are naturally unlucky. I <mask> with this statement,1,agree,0.7799784541130066,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Some people are naturally unlucky. I <mask> with this statement,2,disagree,0.19926632940769196,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Some people are naturally unlucky. I <mask> with this statement,3,agreed,0.013005214743316174,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Some people are naturally unlucky. I <mask> with this statement,4,disagreed,0.004070638678967953,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Some people are naturally unlucky. I <mask> with this statement,5,agree,0.00030317867640405893,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Some people are naturally unlucky. I <mask> with this statement,6,stand,0.00026401758077554405,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Some people are naturally unlucky. I <mask> with this statement,7,agrees,0.0001561093085911125,0.4468134939670563,0.08576908707618713,0.467417448759079
+Some people are naturally unlucky. I <mask> with this statement,8,disagrees,0.00014095407095737755,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Some people are naturally unlucky. I <mask> with this statement,9,'m,0.0001232857466675341,0.23261304199695587,0.1950186789035797,0.572368323802948
+Some people are naturally unlucky. I <mask> with this statement,10,agreeing,0.00012316388892941177,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Some people are naturally unlucky. I <mask> with this statement,11,identify,8.912714110920206e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+Some people are naturally unlucky. I <mask> with this statement,12,responded,7.792541873641312e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+Some people are naturally unlucky. I <mask> with this statement,13,replied,6.419991404982284e-05,0.20213395357131958,0.3119020462036133,0.4859640300273895
+Some people are naturally unlucky. I <mask> with this statement,14,went,5.9676196542568505e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+Some people are naturally unlucky. I <mask> with this statement,15,stick,5.575662726187147e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+It is important that my child’s school instills religious values. I <mask> with this statement,1,agree,0.741255521774292,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is important that my child’s school instills religious values. I <mask> with this statement,2,disagree,0.23970262706279755,0.1545710414648056,0.12410037219524384,0.7213285565376282
+It is important that my child’s school instills religious values. I <mask> with this statement,3,agreed,0.012138626538217068,0.5336840152740479,0.07392885535955429,0.3923870921134949
+It is important that my child’s school instills religious values. I <mask> with this statement,4,disagreed,0.004418486729264259,0.16807261109352112,0.18444408476352692,0.6474832892417908
+It is important that my child’s school instills religious values. I <mask> with this statement,5,stand,0.00036548174102790654,0.21129007637500763,0.08196199685335159,0.7067479491233826
+It is important that my child’s school instills religious values. I <mask> with this statement,6,disagrees,0.00019624865672085434,0.3125687837600708,0.09058714658021927,0.5968440771102905
+It is important that my child’s school instills religious values. I <mask> with this statement,7,agrees,0.00013454415602609515,0.4468134939670563,0.08576908707618713,0.467417448759079
+It is important that my child’s school instills religious values. I <mask> with this statement,8,agree,0.00012072209210600704,0.5829669833183289,0.09586071968078613,0.32117223739624023
+It is important that my child’s school instills religious values. I <mask> with this statement,9,agreeing,8.124500163830817e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+It is important that my child’s school instills religious values. I <mask> with this statement,10,identify,6.0937618400203064e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+It is important that my child’s school instills religious values. I <mask> with this statement,11,am,5.7345041568623856e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+It is important that my child’s school instills religious values. I <mask> with this statement,12,resonate,5.5556341976625845e-05,0.21670001745224,0.10685856640338898,0.6764414310455322
+It is important that my child’s school instills religious values. I <mask> with this statement,13,deal,4.7635650844313204e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+It is important that my child’s school instills religious values. I <mask> with this statement,14,issue,4.415533840074204e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+It is important that my child’s school instills religious values. I <mask> with this statement,15,struggle,4.0734168578637764e-05,0.20587527751922607,0.39040738344192505,0.4037173092365265
+Sex outside marriage is usually immoral. I <mask> with this statement,1,agree,0.7576418519020081,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Sex outside marriage is usually immoral. I <mask> with this statement,2,disagree,0.22292713820934296,0.1545710414648056,0.12410037219524384,0.7213285565376282
+Sex outside marriage is usually immoral. I <mask> with this statement,3,agreed,0.012118344195187092,0.5336840152740479,0.07392885535955429,0.3923870921134949
+Sex outside marriage is usually immoral. I <mask> with this statement,4,disagreed,0.004279300570487976,0.16807261109352112,0.18444408476352692,0.6474832892417908
+Sex outside marriage is usually immoral. I <mask> with this statement,5,stand,0.0002846780407708138,0.21129007637500763,0.08196199685335159,0.7067479491233826
+Sex outside marriage is usually immoral. I <mask> with this statement,6,agree,0.0001941728260135278,0.5829669833183289,0.09586071968078613,0.32117223739624023
+Sex outside marriage is usually immoral. I <mask> with this statement,7,disagrees,0.000156802823767066,0.3125687837600708,0.09058714658021927,0.5968440771102905
+Sex outside marriage is usually immoral. I <mask> with this statement,8,agrees,0.0001370672252960503,0.4468134939670563,0.08576908707618713,0.467417448759079
+Sex outside marriage is usually immoral. I <mask> with this statement,9,'m,0.00011299308971501887,0.23261304199695587,0.1950186789035797,0.572368323802948
+Sex outside marriage is usually immoral. I <mask> with this statement,10,agreeing,0.00010890487465076149,0.15129877626895905,0.09024164080619812,0.7584595084190369
+Sex outside marriage is usually immoral. I <mask> with this statement,11,went,5.4459214879898354e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+Sex outside marriage is usually immoral. I <mask> with this statement,12,stick,5.203343607718125e-05,0.17172400653362274,0.07748515903949738,0.7507908344268799
+Sex outside marriage is usually immoral. I <mask> with this statement,13,responded,4.858280226471834e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+Sex outside marriage is usually immoral. I <mask> with this statement,14,stuck,4.757275019073859e-05,0.12260791659355164,0.44556543231010437,0.4318266212940216
+Sex outside marriage is usually immoral. I <mask> with this statement,15,identify,4.668469773605466e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",1,agree,0.7092173099517822,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",2,disagree,0.27555426955223083,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",3,agreed,0.00912411604076624,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",4,disagreed,0.003133494174107909,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",5,stand,0.0006003492744639516,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",6,agree,0.0002724092919379473,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",7,disagrees,0.0001741227606544271,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",8,agrees,0.00013510789722204208,0.4468134939670563,0.08576908707618713,0.467417448759079
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",9,'m,0.00013382680481299758,0.23261304199695587,0.1950186789035797,0.572368323802948
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",10,agreeing,0.00013369490625336766,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",11,am,8.370459545403719e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",12,identify,8.001259993761778e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",13,issue,6.383627624018118e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",14,align,5.990581485093571e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption. I <mask> with this statement",15,side,4.944598549627699e-05,0.15472231805324554,0.06409277766942978,0.7811849117279053
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",1,agree,0.7341554760932922,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",2,disagree,0.25192880630493164,0.1545710414648056,0.12410037219524384,0.7213285565376282
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",3,agreed,0.008511845022439957,0.5336840152740479,0.07392885535955429,0.3923870921134949
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",4,disagreed,0.002630118513479829,0.16807261109352112,0.18444408476352692,0.6474832892417908
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",5,stand,0.000580065359827131,0.21129007637500763,0.08196199685335159,0.7067479491233826
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",6,agree,0.00024599768221378326,0.5829669833183289,0.09586071968078613,0.32117223739624023
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",7,disagrees,0.00014484162966255099,0.3125687837600708,0.09058714658021927,0.5968440771102905
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",8,'m,0.00013495639723259956,0.23261304199695587,0.1950186789035797,0.572368323802948
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",9,agrees,0.00011546493624337018,0.4468134939670563,0.08576908707618713,0.467417448759079
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",10,agreeing,0.00010669640323612839,0.15129877626895905,0.09024164080619812,0.7584595084190369
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",11,am,6.83443940943107e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",12,identify,6.0888582083862275e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",13,issue,5.797271660412662e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",14,align,5.506462184712291e-05,0.18323640525341034,0.07250586897134781,0.7442577481269836
+"Pornography, depicting consenting adults, should be legal for the adult population. I <mask> with this statement",15,agreement,3.767775706364773e-05,0.6257726550102234,0.06293589621782303,0.31129151582717896
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,1,agree,0.6926297545433044,0.5829669833183289,0.09586071968078613,0.32117223739624023
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,2,disagree,0.29363778233528137,0.1545710414648056,0.12410037219524384,0.7213285565376282
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,3,agreed,0.007312181871384382,0.5336840152740479,0.07392885535955429,0.3923870921134949
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,4,disagreed,0.003440049011260271,0.16807261109352112,0.18444408476352692,0.6474832892417908
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,5,stand,0.00048297326429747045,0.21129007637500763,0.08196199685335159,0.7067479491233826
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,6,agree,0.0002798003260977566,0.5829669833183289,0.09586071968078613,0.32117223739624023
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,7,disagrees,0.00018830948101822287,0.3125687837600708,0.09058714658021927,0.5968440771102905
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,8,agrees,0.00011168359196744859,0.4468134939670563,0.08576908707618713,0.467417448759079
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,9,'m,9.914717520587146e-05,0.23261304199695587,0.1950186789035797,0.572368323802948
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,10,agreeing,8.637559221824631e-05,0.15129877626895905,0.09024164080619812,0.7584595084190369
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,11,issue,6.631822907365859e-05,0.27603715658187866,0.11899466812610626,0.6049681901931763
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,12,identify,5.89146075071767e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,13,deal,5.53837999177631e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,14,am,4.43578974227421e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+What goes on in a private bedroom between consenting adults is no business of the state. I <mask> with this statement,15,continue,3.7430225347634405e-05,0.2122972458600998,0.10371702164411545,0.6839857697486877
+No one can feel naturally homosexual. I <mask> with this statement,1,agree,0.6929580569267273,0.5829669833183289,0.09586071968078613,0.32117223739624023
+No one can feel naturally homosexual. I <mask> with this statement,2,disagree,0.2869984805583954,0.1545710414648056,0.12410037219524384,0.7213285565376282
+No one can feel naturally homosexual. I <mask> with this statement,3,agreed,0.01107120979577303,0.5336840152740479,0.07392885535955429,0.3923870921134949
+No one can feel naturally homosexual. I <mask> with this statement,4,disagreed,0.0048657674342393875,0.16807261109352112,0.18444408476352692,0.6474832892417908
+No one can feel naturally homosexual. I <mask> with this statement,5,stand,0.0004479407798498869,0.21129007637500763,0.08196199685335159,0.7067479491233826
+No one can feel naturally homosexual. I <mask> with this statement,6,agree,0.00027011078782379627,0.5829669833183289,0.09586071968078613,0.32117223739624023
+No one can feel naturally homosexual. I <mask> with this statement,7,disagrees,0.00019898587197531015,0.3125687837600708,0.09058714658021927,0.5968440771102905
+No one can feel naturally homosexual. I <mask> with this statement,8,'m,0.00015127901860978454,0.23261304199695587,0.1950186789035797,0.572368323802948
+No one can feel naturally homosexual. I <mask> with this statement,9,agrees,0.0001328490616288036,0.4468134939670563,0.08576908707618713,0.467417448759079
+No one can feel naturally homosexual. I <mask> with this statement,10,identify,0.0001223236322402954,0.18632282316684723,0.11931435763835907,0.6943628191947937
+No one can feel naturally homosexual. I <mask> with this statement,11,agreeing,0.0001022020005621016,0.15129877626895905,0.09024164080619812,0.7584595084190369
+No one can feel naturally homosexual. I <mask> with this statement,12,responded,8.486485603498295e-05,0.1313762068748474,0.06789181381464005,0.8007319569587708
+No one can feel naturally homosexual. I <mask> with this statement,13,am,6.307926378212869e-05,0.2239333689212799,0.1475686877965927,0.6284980177879333
+No one can feel naturally homosexual. I <mask> with this statement,14,ran,6.022596062393859e-05,0.24672487378120422,0.11741102486848831,0.6358640789985657
+No one can feel naturally homosexual. I <mask> with this statement,15,deal,5.9691894421121106e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+These days openness about sex has gone too far. I <mask> with this statement,1,agree,0.7982794642448425,0.5829669833183289,0.09586071968078613,0.32117223739624023
+These days openness about sex has gone too far. I <mask> with this statement,2,disagree,0.18734002113342285,0.1545710414648056,0.12410037219524384,0.7213285565376282
+These days openness about sex has gone too far. I <mask> with this statement,3,agreed,0.007611795794218779,0.5336840152740479,0.07392885535955429,0.3923870921134949
+These days openness about sex has gone too far. I <mask> with this statement,4,disagreed,0.0018829667242243886,0.16807261109352112,0.18444408476352692,0.6474832892417908
+These days openness about sex has gone too far. I <mask> with this statement,5,stand,0.00029166476451791823,0.21129007637500763,0.08196199685335159,0.7067479491233826
+These days openness about sex has gone too far. I <mask> with this statement,6,'m,0.0002862169058062136,0.23261304199695587,0.1950186789035797,0.572368323802948
+These days openness about sex has gone too far. I <mask> with this statement,7,agree,0.00017837494669947773,0.5829669833183289,0.09586071968078613,0.32117223739624023
+These days openness about sex has gone too far. I <mask> with this statement,8,started,0.00017734398716129363,0.10329876840114594,0.0875517949461937,0.8091493844985962
+These days openness about sex has gone too far. I <mask> with this statement,9,agrees,0.00011495299258967862,0.4468134939670563,0.08576908707618713,0.467417448759079
+These days openness about sex has gone too far. I <mask> with this statement,10,cool,0.00010256926179863513,0.33192992210388184,0.10033555328845978,0.5677345395088196
+These days openness about sex has gone too far. I <mask> with this statement,11,identify,9.452061203774065e-05,0.18632282316684723,0.11931435763835907,0.6943628191947937
+These days openness about sex has gone too far. I <mask> with this statement,12,deal,9.07209177967161e-05,0.20438379049301147,0.09898409992456436,0.6966321468353271
+These days openness about sex has gone too far. I <mask> with this statement,13,went,8.864819392329082e-05,0.1620415449142456,0.11145045608282089,0.7265080213546753
+These days openness about sex has gone too far. I <mask> with this statement,14,left,8.34899110486731e-05,0.19021907448768616,0.1277223527431488,0.682058572769165
+These days openness about sex has gone too far. I <mask> with this statement,15,disagrees,8.17371328594163e-05,0.3125687837600708,0.09058714658021927,0.5968440771102905
