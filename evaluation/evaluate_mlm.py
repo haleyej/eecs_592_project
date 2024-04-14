@@ -95,7 +95,7 @@ def parse_args():
     parser.add_argument('--model_path', type=str)
     parser.add_argument('--eval_path', type=str)
     parser.add_argument('--output_file', type=str)
-    parser.add_argument('--top_k', type=int, default=15)
+    parser.add_argument('--top_k', type=int, default=5)
     return parser.parse_args()
 
 
