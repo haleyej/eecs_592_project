@@ -9,4 +9,4 @@ python3 evaluate_mlm.py --model_path="../fine-tuned-models/news-right" --eval_pa
 python3 evaluate_mlm.py --model_path="../fine-tuned-models/news-center" --eval_path='political_compass.jsonl' --output_file="political_compass/news-center-eval.csv"
 
 echo "roberta base"
-python3 evaluate_mlm.py --model_path="distilbert/distilroberta-base" --eval_path='political_compass.jsonl' --output_file="political_compass/robeta-base-eval.csv"
+python3 evaluate_mlm.py --model_path="distilbert/distilroberta-base" --eval_path='political_compass.jsonl' --output_file="political_compass/roberta-base-eval.csv"
