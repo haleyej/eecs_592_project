@@ -4,6 +4,8 @@ import evaluate
 import argparse
 import numpy as np
 import pandas as pd
+from tqdm import tqdm  # Import tqdm
+#eecs592s001w24_class
 
 from torch.utils.data import Dataset
 from sklearn.model_selection import train_test_split
@@ -103,7 +105,10 @@ def classification_pretrain(tokenizer,
     X_train, X_val, y_train, y_val = train_test_split(texts, labels, test_size = eval_size)
     num_classes = len(set(labels))
 
-    model = AutoModelForSequenceClassification.from_pretrained(pretrained_model_path, num_labels = num_classes)   
+    # Move model to GPU if available
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(device)
+    model = AutoModelForSequenceClassification.from_pretrained(pretrained_model_path, num_labels = num_classes).to(device)
 
     climate_dataset = ClimateClassificationDataset(X_train, y_train, tokenizer, max_len)
     eval_dataset = ClimateClassificationDataset(X_val, y_val, tokenizer, max_len)
@@ -136,8 +141,12 @@ def classification_pretrain(tokenizer,
             tokenizer = tokenizer, 
             compute_metrics = compute_metrics)
 
-    trainer.train()
-    torch.save(model.state_dict(), f"{model_name}-classification-weights.pt")
+    # Use tqdm to create a progress bar
+    with tqdm(total=training_args.num_train_epochs, desc="Training") as pbar:
+        trainer.train()
+        pbar.update(1)
+
+    torch.save(model.state_dict(), f"{model_name}-classification-weights.pth")
 
 
 def main(args):
@@ -145,21 +154,160 @@ def main(args):
     # python3 climate_denial_downstream.py --pretrained_model_path='reddit-left' --model_name='reddit-left' --data_path='../data/climate_sentiment_test.csv' 
     # replace paths with the correct ones for your dir structure
     # should also probably specify logging / output door so your life is not miserable 
-    tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
+    if args['mode'] == 'train':
+        tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
 
-    classification_pretrain(tokenizer,
-                            args['pretrained_model_path'],
-                            args['data_path'],
-                            args['model_name'],
-                            args['output_dir'], 
-                            args['logging_dir'], 
-                            args['eval_size'], 
-                            args['max_len'],
-                            args['batch_size'],
-                            args['eval_steps'],
-                            args['learning_rate'],
-                            args['epochs'], 
-                            args['weight_decay'])
+        classification_pretrain(tokenizer,
+                                args['pretrained_model_path'],
+                                args['data_path'],
+                                args['model_name'],
+                                args['output_dir'], 
+                                args['logging_dir'], 
+                                args['eval_size'], 
+                                args['max_len'],
+                                args['batch_size'],
+                                args['eval_steps'],
+                                args['learning_rate'],
+                                args['epochs'], 
+                                args['weight_decay'])
+    elif args['mode'] == 'test':
+        tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        model = AutoModelForSequenceClassification.from_pretrained(args['pretrained_model_path']).to(device)
+        model.load_state_dict(torch.load(f"{args['model_name']}-classification-weights.pth"))
+        model.eval()
+
+        test_texts, test_labels = process_climate_data(args['test_data_path'])
+        test_dataset = ClimateClassificationDataset(test_texts, test_labels, tokenizer, 512)
+        test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=8, collate_fn = DataCollatorWithPadding(tokenizer = tokenizer, padding = 'max_length'))
+
+        all_predictions = []
+        all_labels = []
+
+        for batch in test_loader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+
+            with torch.no_grad():
+                outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+
+            predictions = torch.argmax(outputs.logits, dim=1).tolist()
+            all_predictions.extend(predictions)
+            all_labels.extend(batch['labels'])
+            
+        all_predictions = np.array(all_predictions)
+        all_labels = torch.stack(all_labels).numpy()
+        scores = metrics.compute(predictions = all_predictions, references = all_labels)
+        print(f'{args['model_name']}:')
+        print(scores)
+    elif args['mode'] == 'test-ensemble':
+        tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+        
+        redditCenterModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/reddit-center').to(device)
+        redditCenterModel.load_state_dict(torch.load(f"reddit-center-classification-weights.pth"))
+        redditCenterModel.eval()
+
+        redditLeftModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/reddit-left').to(device)
+        redditLeftModel.load_state_dict(torch.load(f"reddit-left-classification-weights.pth"))
+        redditLeftModel.eval()
+
+        redditRightModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/reddit-right').to(device)
+        redditRightModel.load_state_dict(torch.load(f"reddit-right-classification-weights.pth"))
+        redditRightModel.eval()
+
+        newsCenterModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/news-center').to(device)
+        newsCenterModel.load_state_dict(torch.load(f"news-center-classification-weights.pth"))
+        newsCenterModel.eval()
+
+        newsLeftModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/news-left').to(device)
+        newsLeftModel.load_state_dict(torch.load(f"news-left-classification-weights.pth"))
+        newsLeftModel.eval()
+
+        newsRightModel = AutoModelForSequenceClassification.from_pretrained('/home/apalakod/eecs_592_project/zip_gg_files/fine-tuned_models/news-right').to(device)
+        newsRightModel.load_state_dict(torch.load(f"news-right-classification-weights.pth"))
+        newsRightModel.eval()
+
+        test_texts, test_labels = process_climate_data(args['test_data_path'])
+        test_dataset = ClimateClassificationDataset(test_texts, test_labels, tokenizer, 512)
+        test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=8, collate_fn = DataCollatorWithPadding(tokenizer = tokenizer, padding = 'max_length'))
+
+        reddit_predictions = []
+        news_predictions = []
+        all_labels = []
+
+        for batch in test_loader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+
+            with torch.no_grad():
+                rlOut = redditLeftModel(input_ids=input_ids, attention_mask=attention_mask)
+                rrOut = redditRightModel(input_ids=input_ids, attention_mask=attention_mask)
+                rcOut = redditCenterModel(input_ids=input_ids, attention_mask=attention_mask)
+                nlOut = newsLeftModel(input_ids=input_ids, attention_mask=attention_mask)
+                nrOut = newsRightModel(input_ids=input_ids, attention_mask=attention_mask)
+                ncOut = newsCenterModel(input_ids=input_ids, attention_mask=attention_mask)
+
+            reddit_predictions.extend(torch.argmax(rlOut.logits+rrOut.logits+rcOut.logits, dim=1).tolist())
+            news_predictions.extend(torch.argmax(nlOut.logits+nrOut.logits+ncOut.logits, dim=1).tolist())
+            all_labels.extend(batch['labels'])
+            
+        news_predictions = np.array(news_predictions)
+        reddit_predictions = np.array(reddit_predictions)
+        all_labels = torch.stack(all_labels).numpy()
+        reddit_scores = metrics.compute(predictions = reddit_predictions, references = all_labels)
+        news_scores = metrics.compute(predictions = news_predictions, references = all_labels)
+        print(f'reddit-ensemble-scores:')
+        print(reddit_scores)
+        print(f'news-ensemble-scores:')
+        print(news_scores)
+    elif args['mode'] == 'test-base':
+        tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base', do_lower_case = True)
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+        classification_pretrain(tokenizer,
+                                'distilroberta-base',
+                                args['data_path'],
+                                args['model_name'],
+                                args['output_dir'], 
+                                args['logging_dir'], 
+                                args['eval_size'], 
+                                args['max_len'],
+                                args['batch_size'],
+                                args['eval_steps'],
+                                args['learning_rate'],
+                                args['epochs'], 
+                                args['weight_decay'])
+        
+        bertModel = AutoModelForSequenceClassification.from_pretrained('distilroberta-base').to(device)
+        bertModel.load_state_dict(torch.load(f"base-classification-weights.pth"))
+        bertModel.eval()
+
+        test_texts, test_labels = process_climate_data(args['test_data_path'])
+        test_dataset = ClimateClassificationDataset(test_texts, test_labels, tokenizer, 512)
+        test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=8, collate_fn = DataCollatorWithPadding(tokenizer = tokenizer, padding = 'max_length'))
+
+        all_predictions = []
+        all_labels = []
+
+        for batch in test_loader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+
+            with torch.no_grad():
+                out = bertModel(input_ids=input_ids, attention_mask=attention_mask)
+
+            all_predictions.extend(torch.argmax(out.logits, dim=1).tolist())
+            all_labels.extend(batch['labels'])
+            
+        all_predictions = np.array(all_predictions)
+        all_labels = torch.stack(all_labels).numpy()
+        base_scores = metrics.compute(predictions = all_predictions, references = all_labels)
+        print(f'base-scores:')
+        print(base_scores)
+    else:
+        raise ValueError("Invalid mode. Use 'train' or 'test'.")
     
 
 
@@ -177,6 +325,8 @@ def parse_args():
     parser.add_argument('--learning_rate', type=float, default=1e-5)
     parser.add_argument('--epochs', type=int, default=5)
     parser.add_argument('--weight_decay', type=float, default=0.01)
+    parser.add_argument('--test_data_path', type=str)
+    parser.add_argument('--mode', type=str)
     return parser.parse_args()
 
 
